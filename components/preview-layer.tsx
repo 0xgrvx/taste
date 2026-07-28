@@ -5,7 +5,7 @@ import { createPortal } from 'react-dom'
 import { categoryLabel, previewImage, type Entry } from '@/lib/registry'
 
 type PreviewContextValue = {
-  show: (entry: Entry) => void
+  show: (entry: Entry, event?: React.PointerEvent) => void
   hide: () => void
 }
 
@@ -32,7 +32,9 @@ export function PreviewProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     setMounted(true)
-    const mq = window.matchMedia('(hover: hover) and (min-width: 1024px)')
+    // width is the only reliable gate — headless and some desktop browsers
+    // report `hover: none`. Touch pointers are filtered per-event in `show`.
+    const mq = window.matchMedia('(min-width: 1024px)')
     setHoverCapable(mq.matches)
     const onChange = () => setHoverCapable(mq.matches)
     mq.addEventListener('change', onChange)
@@ -60,8 +62,10 @@ export function PreviewProvider({ children }: { children: React.ReactNode }) {
   }, [hoverCapable, place])
 
   const show = useCallback(
-    (next: Entry) => {
+    (next: Entry, event?: React.PointerEvent) => {
       if (!hoverCapable) return
+      if (event?.pointerType === 'touch') return
+      if (event) point.current = { x: event.clientX, y: event.clientY }
       if (openTimer.current) clearTimeout(openTimer.current)
       const commit = () => {
         isOpen.current = true
