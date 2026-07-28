@@ -1,6 +1,9 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import { PreviewProvider } from '@/components/preview-layer'
+import { SiteHeader } from '@/components/site-header'
+import { SiteFooter } from '@/components/site-footer'
 import './globals.css'
 
 const _geistSans = Geist({ subsets: ['latin'] })
@@ -71,7 +74,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-background">
       <body className="bg-background text-foreground font-sans antialiased">
-        {children}
+        <PreviewProvider>
+          <SiteHeader />
+          <main id="main">{children}</main>
+          <SiteFooter />
+        </PreviewProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

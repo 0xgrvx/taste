@@ -15,7 +15,7 @@ export function EntryCard({ entry, index = 0 }: { entry: Entry; index?: number }
   return (
     <Link
       href={`/t/${entry.slug}`}
-      onPointerEnter={() => show(entry)}
+      onPointerEnter={(e) => show(entry, e)}
       onPointerLeave={hide}
       onFocus={hide}
       className="group relative flex min-h-[168px] flex-col justify-between gap-6 border-b border-r border-border p-5 transition-colors duration-200 hover:bg-card focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-ring"
@@ -57,7 +57,7 @@ export function EntryRow({ entry, index = 0 }: { entry: Entry; index?: number })
   return (
     <Link
       href={`/t/${entry.slug}`}
-      onPointerEnter={() => show(entry)}
+      onPointerEnter={(e) => show(entry, e)}
       onPointerLeave={hide}
       onFocus={hide}
       className="group relative flex items-center gap-4 border-b border-border px-3 py-3.5 transition-colors duration-200 hover:bg-card focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-ring sm:px-4"

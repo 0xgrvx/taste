@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Github } from 'lucide-react'
 import { CATEGORIES } from '@/lib/registry'
+import { GitHubIcon } from '@/components/icons'
 
 export function SiteHeader() {
   return (
@@ -44,7 +44,7 @@ export function SiteHeader() {
             aria-label="GitHub"
             className="press flex h-8 w-8 items-center justify-center rounded-md border border-border text-muted-foreground transition-colors duration-150 hover:bg-muted/60 hover:text-foreground"
           >
-            <Github className="h-3.5 w-3.5" aria-hidden="true" />
+            <GitHubIcon />
           </a>
           <Link
             href="/browse"
