@@ -1,0 +1,38 @@
+{
+  "slug": "embla-carousel",
+  "name": "Embla Carousel",
+  "tagline": "A carousel with correct physics",
+  "description": "Dependency-free, extensible carousel with precise drag physics and snap behavior. The reason most shadcn carousels feel good.",
+  "url": "https://www.embla-carousel.com",
+  "category": "animation",
+  "tags": [
+    "carousel",
+    "gesture",
+    "js"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "embla-carousel-react"
+  },
+  "makers": [
+    {
+      "name": "David Jerleke",
+      "role": "Creator",
+      "x": "davidjerleke",
+      "github": "davidjerleke"
+    }
+  ],
+  "best": [
+    {
+      "title": "Embla Carousel",
+      "url": "https://www.embla-carousel.com",
+      "note": "Drag physics that feel native."
+    },
+    {
+      "title": "Embla plugins",
+      "url": "https://www.embla-carousel.com/plugins/",
+      "note": "Autoplay, wheel and fade, composable."
+    }
+  ]
+}

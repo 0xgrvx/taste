@@ -1,0 +1,38 @@
+{
+  "slug": "anime-js",
+  "name": "Anime.js",
+  "tagline": "A tiny engine with a beautiful API",
+  "description": "Version 4 is a modular, ESM-first rewrite: timelines, springs, draggables, scroll observers and WAAPI output in a package you can read.",
+  "url": "https://animejs.com",
+  "category": "animation",
+  "tags": [
+    "js",
+    "timeline",
+    "svg"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "animejs"
+  },
+  "makers": [
+    {
+      "name": "Julian Garnier",
+      "role": "Creator",
+      "x": "juliangarnier",
+      "github": "juliangarnier"
+    }
+  ],
+  "best": [
+    {
+      "title": "Anime.js v4",
+      "url": "https://animejs.com",
+      "note": "A rewrite that kept the elegance and added power."
+    },
+    {
+      "title": "Anime.js docs",
+      "url": "https://animejs.com/documentation/",
+      "note": "Docs that are themselves a demo."
+    }
+  ]
+}

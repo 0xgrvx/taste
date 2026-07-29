@@ -1,0 +1,46 @@
+{
+  "slug": "paper-shaders",
+  "name": "Paper Shaders",
+  "tagline": "Zero-dependency animated shader backgrounds",
+  "description": "A set of tiny, tweakable shader components — mesh gradients, grain clouds, dithering, metaballs — sized for real marketing pages rather than demos.",
+  "url": "https://shaders.paper.design",
+  "category": "shaders",
+  "tags": [
+    "glsl",
+    "react",
+    "gradient",
+    "background"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@paper-design/shaders-react"
+  },
+  "makers": [
+    {
+      "name": "Ksenia Kondrashova",
+      "role": "Shader engineering",
+      "x": "ksenia_code",
+      "github": "ksenia-kondrashova"
+    },
+    {
+      "name": "Paper",
+      "role": "Studio",
+      "x": "paper",
+      "site": "https://paper.design"
+    }
+  ],
+  "best": [
+    {
+      "title": "Paper Shaders",
+      "url": "https://shaders.paper.design",
+      "note": "Production-ready shader backgrounds."
+    },
+    {
+      "title": "Paper",
+      "url": "https://paper.design",
+      "note": "A design tool built on the same rendering work."
+    }
+  ],
+  "featured": true
+}

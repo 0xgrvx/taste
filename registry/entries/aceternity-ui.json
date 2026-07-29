@@ -1,0 +1,35 @@
+{
+  "slug": "aceternity-ui",
+  "name": "Aceternity UI",
+  "tagline": "Big, loud, screenshot-ready components",
+  "description": "Bold Tailwind and Motion components — spotlight cards, 3D pins, wobble grids — built for hero sections that stop the scroll.",
+  "url": "https://ui.aceternity.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "tailwind",
+    "motion",
+    "marketing"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Manu Arora",
+      "role": "Creator",
+      "x": "mannupaaji",
+      "github": "manuarora700"
+    }
+  ],
+  "best": [
+    {
+      "title": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "note": "The component set behind a thousand launch pages."
+    },
+    {
+      "title": "Aceternity templates",
+      "url": "https://pro.aceternity.com",
+      "note": "Full page systems with the same energy."
+    }
+  ]
+}

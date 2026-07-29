@@ -1,0 +1,39 @@
+{
+  "slug": "theatre-js",
+  "name": "Theatre.js",
+  "tagline": "A motion design editor for code",
+  "description": "Animate anything in JavaScript — DOM, Three.js, canvas — on a real timeline with a visual editor, then ship the state as JSON.",
+  "url": "https://www.theatrejs.com",
+  "category": "animation",
+  "tags": [
+    "js",
+    "timeline",
+    "three",
+    "editor"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@theatre/core"
+  },
+  "makers": [
+    {
+      "name": "Aria Minaei",
+      "role": "Creator",
+      "x": "ariaminaei",
+      "github": "AriaMinaei"
+    }
+  ],
+  "best": [
+    {
+      "title": "Theatre.js",
+      "url": "https://www.theatrejs.com",
+      "note": "A sequencer for the web, in the browser."
+    },
+    {
+      "title": "r3f-theatre",
+      "url": "https://www.theatrejs.com/docs/latest/manual/r3f",
+      "note": "Choreographing 3D scenes visually."
+    }
+  ]
+}

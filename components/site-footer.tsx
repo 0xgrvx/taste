@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { Heart } from 'lucide-react'
 import { CATEGORIES, ENTRIES } from '@/lib/registry'
 
 export function SiteFooter() {
@@ -95,6 +96,19 @@ export function SiteFooter() {
             {ENTRIES.length} entries — curated, not scraped
           </p>
           <p className="label text-muted-foreground">Every project belongs to its makers</p>
+        </div>
+
+        <div className="mt-6 flex items-center justify-center gap-1.5 text-[11px] text-muted-foreground/60">
+          <Heart className="h-3 w-3 fill-current" aria-hidden="true" />
+          made with love by{' '}
+          <a
+            href="https://x.com/intent/follow?screen_name=gauravmandall"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="underline decoration-muted-foreground/30 underline-offset-2 transition-colors duration-150 hover:text-muted-foreground/90"
+          >
+            gauravmandall
+          </a>
         </div>
       </div>
     </footer>

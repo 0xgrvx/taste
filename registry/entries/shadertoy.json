@@ -1,0 +1,40 @@
+{
+  "slug": "shadertoy",
+  "name": "Shadertoy",
+  "tagline": "Where the shader canon lives",
+  "description": "The community playground for fragment shaders. Two decades of raymarching, noise and SDF technique, all readable and remixable.",
+  "url": "https://www.shadertoy.com",
+  "category": "shaders",
+  "tags": [
+    "glsl",
+    "community",
+    "raymarching"
+  ],
+  "embeddable": false,
+  "makers": [
+    {
+      "name": "Iñigo Quílez",
+      "role": "Co-creator",
+      "x": "iquilezles",
+      "site": "https://iquilezles.org"
+    },
+    {
+      "name": "Pol Jeremias",
+      "role": "Co-creator",
+      "x": "poljeremias"
+    }
+  ],
+  "best": [
+    {
+      "title": "Shadertoy",
+      "url": "https://www.shadertoy.com",
+      "note": "The shared library of shader technique."
+    },
+    {
+      "title": "iquilezles.org articles",
+      "url": "https://iquilezles.org/articles/",
+      "note": "The SDF and noise reference, full stop."
+    }
+  ],
+  "featured": true
+}

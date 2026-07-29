@@ -1,0 +1,35 @@
+{
+  "slug": "codrops",
+  "name": "Codrops",
+  "tagline": "The archive of front-end experiments",
+  "description": "Two decades of tutorials and demos on WebGL, scroll effects, grid transitions and type animation. Still where technique gets documented first.",
+  "url": "https://tympanus.net/codrops/",
+  "category": "tools",
+  "tags": [
+    "tutorials",
+    "inspiration",
+    "webgl"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Manoela Ilic",
+      "role": "Founder",
+      "x": "crnacura",
+      "site": "https://tympanus.net/codrops/"
+    }
+  ],
+  "best": [
+    {
+      "title": "Codrops",
+      "url": "https://tympanus.net/codrops/",
+      "note": "The tutorial archive of the web."
+    },
+    {
+      "title": "Codrops Playground",
+      "url": "https://tympanus.net/codrops/category/playground/",
+      "note": "Experiments with the source attached."
+    }
+  ],
+  "featured": true
+}

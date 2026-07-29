@@ -1,0 +1,34 @@
+{
+  "slug": "react-bits",
+  "name": "React Bits",
+  "tagline": "Animated, glassy, occasionally unhinged",
+  "description": "A big collection of animated React components and text effects with CSS and Tailwind variants for each one — a fast way to add character to a page.",
+  "url": "https://reactbits.dev",
+  "category": "ui",
+  "tags": [
+    "react",
+    "effects",
+    "text"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "David Haz",
+      "role": "Creator",
+      "x": "davidhaz",
+      "github": "DavidHDev"
+    }
+  ],
+  "best": [
+    {
+      "title": "React Bits",
+      "url": "https://reactbits.dev",
+      "note": "Effect-first components, every variant included."
+    },
+    {
+      "title": "Aura",
+      "url": "https://github.com/DavidHDev/react-bits",
+      "note": "The open repo behind the site."
+    }
+  ]
+}

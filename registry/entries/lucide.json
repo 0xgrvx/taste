@@ -1,0 +1,43 @@
+{
+  "slug": "lucide",
+  "name": "Lucide",
+  "tagline": "1,500+ icons that stay consistent",
+  "description": "A community-run icon set with a strict 24px grid and stroke system, available for every framework and tree-shakeable per icon.",
+  "url": "https://lucide.dev",
+  "category": "tools",
+  "tags": [
+    "icons",
+    "svg"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "lucide-react"
+  },
+  "makers": [
+    {
+      "name": "Lucide contributors",
+      "role": "Community",
+      "github": "lucide-icons",
+      "site": "https://lucide.dev"
+    },
+    {
+      "name": "Cole Bemis",
+      "role": "Feather author",
+      "x": "colebemis",
+      "github": "colebemis"
+    }
+  ],
+  "best": [
+    {
+      "title": "Lucide",
+      "url": "https://lucide.dev",
+      "note": "The default icon set of the shadcn era."
+    },
+    {
+      "title": "Feather",
+      "url": "https://feathericons.com",
+      "note": "The original set Lucide grew from."
+    }
+  ]
+}

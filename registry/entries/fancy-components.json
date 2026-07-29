@@ -1,0 +1,35 @@
+{
+  "slug": "fancy-components",
+  "name": "Fancy Components",
+  "tagline": "Playful, physics-flavored React bits",
+  "description": "Text and layout components with a strong point of view — gravity, elastic lines, variable-font morphs. Great source material for learning motion technique.",
+  "url": "https://fancycomponents.dev",
+  "category": "ui",
+  "tags": [
+    "react",
+    "motion",
+    "text",
+    "physics"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Daniel Petho",
+      "role": "Creator",
+      "x": "danielpetho",
+      "github": "danielpetho"
+    }
+  ],
+  "best": [
+    {
+      "title": "Fancy Components",
+      "url": "https://fancycomponents.dev",
+      "note": "Motion experiments, documented properly."
+    },
+    {
+      "title": "Variable font effects",
+      "url": "https://fancycomponents.dev/docs/components/text/variable-font-hover-by-letter",
+      "note": "Per-letter variable font hover."
+    }
+  ]
+}

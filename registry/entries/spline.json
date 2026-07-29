@@ -1,0 +1,38 @@
+{
+  "slug": "spline",
+  "name": "Spline",
+  "tagline": "3D design in the browser, exportable to the web",
+  "description": "A collaborative 3D editor with materials, physics and interaction events, plus React and viewer runtimes for shipping scenes to production.",
+  "url": "https://spline.design",
+  "category": "webgl",
+  "tags": [
+    "3d",
+    "editor",
+    "no-code"
+  ],
+  "embeddable": false,
+  "install": {
+    "type": "npm",
+    "target": "@splinetool/react-spline"
+  },
+  "makers": [
+    {
+      "name": "Spline",
+      "role": "Team",
+      "x": "splinetool",
+      "site": "https://spline.design"
+    }
+  ],
+  "best": [
+    {
+      "title": "Spline",
+      "url": "https://spline.design",
+      "note": "3D authoring without a DCC pipeline."
+    },
+    {
+      "title": "Spline viewer",
+      "url": "https://spline.design/embed",
+      "note": "Interactive scenes in a single tag."
+    }
+  ]
+}

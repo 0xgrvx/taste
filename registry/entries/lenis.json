@@ -1,0 +1,43 @@
+{
+  "slug": "lenis",
+  "name": "Lenis",
+  "tagline": "Smooth scroll that does not fight the browser",
+  "description": "The smooth-scroll library from Darkroom Engineering: accessible, lightweight, and the default choice for scroll-driven sites that still feel native.",
+  "url": "https://lenis.darkroom.engineering",
+  "category": "animation",
+  "tags": [
+    "scroll",
+    "js"
+  ],
+  "embeddable": false,
+  "install": {
+    "type": "npm",
+    "target": "lenis"
+  },
+  "makers": [
+    {
+      "name": "Clement Roche",
+      "role": "Co-founder, Darkroom",
+      "x": "clementroche_",
+      "github": "clementroche"
+    },
+    {
+      "name": "Darkroom Engineering",
+      "role": "Studio",
+      "x": "darkroomengi",
+      "site": "https://darkroom.engineering"
+    }
+  ],
+  "best": [
+    {
+      "title": "Lenis",
+      "url": "https://lenis.darkroom.engineering",
+      "note": "The smooth-scroll standard."
+    },
+    {
+      "title": "Darkroom work",
+      "url": "https://darkroom.engineering",
+      "note": "The studio behind a decade of award sites."
+    }
+  ]
+}

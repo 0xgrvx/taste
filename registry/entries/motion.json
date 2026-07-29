@@ -1,0 +1,40 @@
+{
+  "slug": "motion",
+  "name": "Motion",
+  "tagline": "The animation engine of the React era",
+  "description": "Formerly Framer Motion. Declarative animation, layout projection, springs, scroll linking and a hybrid engine that hands work to the browser where it can.",
+  "url": "https://motion.dev",
+  "category": "animation",
+  "tags": [
+    "react",
+    "js",
+    "spring",
+    "layout"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "motion"
+  },
+  "makers": [
+    {
+      "name": "Matt Perry",
+      "role": "Creator",
+      "x": "mattgperry",
+      "github": "mattgperry"
+    }
+  ],
+  "best": [
+    {
+      "title": "Motion",
+      "url": "https://motion.dev",
+      "note": "Springs, layout animation and scroll, in one API."
+    },
+    {
+      "title": "Motion examples",
+      "url": "https://examples.motion.dev",
+      "note": "A reference library of real transitions."
+    }
+  ],
+  "featured": true
+}

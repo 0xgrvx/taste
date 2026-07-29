@@ -1,0 +1,39 @@
+{
+  "slug": "sonner",
+  "name": "Sonner",
+  "tagline": "The toast that everyone benchmarks against",
+  "description": "Stacked, swipeable toasts that enter and exit from the same direction, dismiss on a flick rather than a threshold, and never fight the user. A masterclass in small-surface motion.",
+  "url": "https://sonner.emilkowal.ski",
+  "category": "ui",
+  "tags": [
+    "react",
+    "toast",
+    "motion"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "sonner"
+  },
+  "makers": [
+    {
+      "name": "Emil Kowalski",
+      "role": "Creator",
+      "x": "emilkowalski_",
+      "github": "emilkowalski",
+      "site": "https://emilkowal.ski"
+    }
+  ],
+  "best": [
+    {
+      "title": "Vaul",
+      "url": "https://vaul.emilkowal.ski",
+      "note": "Drawer physics done properly."
+    },
+    {
+      "title": "Emil’s writing",
+      "url": "https://emilkowal.ski/ui",
+      "note": "Essays on the details users never notice."
+    }
+  ]
+}

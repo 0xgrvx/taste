@@ -1,0 +1,44 @@
+{
+  "slug": "tailwind-css",
+  "name": "Tailwind CSS",
+  "tagline": "The constraint system underneath everything here",
+  "description": "Utility-first CSS with a real design-token layer. v4 moved configuration into CSS itself and made the whole thing dramatically faster.",
+  "url": "https://tailwindcss.com",
+  "category": "tools",
+  "tags": [
+    "css",
+    "tokens",
+    "utility"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "tailwindcss"
+  },
+  "makers": [
+    {
+      "name": "Adam Wathan",
+      "role": "Co-founder",
+      "x": "adamwathan",
+      "github": "adamwathan"
+    },
+    {
+      "name": "Steve Schoger",
+      "role": "Co-founder",
+      "x": "steveschoger"
+    }
+  ],
+  "best": [
+    {
+      "title": "Tailwind CSS",
+      "url": "https://tailwindcss.com",
+      "note": "Constraints that made teams consistent."
+    },
+    {
+      "title": "Refactoring UI",
+      "url": "https://www.refactoringui.com",
+      "note": "The book that taught developers to see."
+    }
+  ],
+  "featured": true
+}

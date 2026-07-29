@@ -1,0 +1,40 @@
+{
+  "slug": "kibo-ui",
+  "name": "Kibo UI",
+  "tagline": "The composite components shadcn/ui leaves out",
+  "description": "Kanban boards, gantt charts, editors, AI chat surfaces — larger composed blocks that still install through the shadcn CLI and stay editable.",
+  "url": "https://www.kibo-ui.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "registry",
+    "blocks",
+    "ai"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "shadcn",
+    "target": "@kibo-ui/kanban"
+  },
+  "makers": [
+    {
+      "name": "Hayden Bleasel",
+      "role": "Creator",
+      "x": "haydenbleasel",
+      "github": "haydenbleasel",
+      "site": "https://haydenbleasel.com"
+    }
+  ],
+  "best": [
+    {
+      "title": "Kibo UI",
+      "url": "https://www.kibo-ui.com",
+      "note": "Composite blocks, shadcn-native."
+    },
+    {
+      "title": "next-forge",
+      "url": "https://www.next-forge.com",
+      "note": "An opinionated production Next.js monorepo template."
+    }
+  ]
+}

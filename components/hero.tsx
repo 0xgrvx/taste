@@ -50,7 +50,7 @@ export function Hero() {
           className="rise mt-6 max-w-xl text-[15px] leading-relaxed text-foreground/75"
           style={{ '--i': 3 } as React.CSSProperties}
         >
-          {ENTRIES.length} libraries and tools built by {MAKER_COUNT} people whose work is worth studying. Hover any
+          {ENTRIES.length} libraries and tools — designs of the bests. Hover any
           entry for a live preview, copy the install command, then go read their best work.
         </p>
 

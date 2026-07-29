@@ -16,6 +16,17 @@ export function SiteHeader() {
           />
           <span className="text-[15px] font-semibold tracking-tight">Taste</span>
         </Link>
+        <span className="hidden text-[11px] text-muted-foreground/50 sm:inline">
+          by{' '}
+          <a
+            href="https://x.com/intent/follow?screen_name=gauravmandall"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="underline decoration-muted-foreground/20 underline-offset-2 transition-colors duration-150 hover:text-muted-foreground/90"
+          >
+            gauravmandall
+          </a>
+        </span>
 
         <nav aria-label="Categories" className="hidden items-center gap-1 md:flex">
           <Link

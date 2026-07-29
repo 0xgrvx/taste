@@ -1,0 +1,41 @@
+{
+  "slug": "shadcn-ui",
+  "name": "shadcn/ui",
+  "tagline": "Components you own, not components you install",
+  "description": "A registry of accessible, copy-in React components built on Radix and Tailwind. It changed how the ecosystem thinks about component distribution: the code lands in your repo, so it stays yours.",
+  "url": "https://ui.shadcn.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "tailwind",
+    "registry",
+    "radix"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "shadcn",
+    "target": "button"
+  },
+  "makers": [
+    {
+      "name": "shadcn",
+      "role": "Creator",
+      "x": "shadcn",
+      "github": "shadcn",
+      "site": "https://shadcn.com"
+    }
+  ],
+  "best": [
+    {
+      "title": "shadcn/ui",
+      "url": "https://ui.shadcn.com",
+      "note": "The registry that reset component distribution."
+    },
+    {
+      "title": "Taxonomy",
+      "url": "https://tx.shadcn.com",
+      "note": "The App Router reference app everyone copied in 2023."
+    }
+  ],
+  "featured": true
+}

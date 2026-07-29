@@ -1,0 +1,36 @@
+{
+  "slug": "lygia",
+  "name": "Lygia",
+  "tagline": "A shader standard library",
+  "description": "A multi-language shader library of noise, lighting, color and SDF functions that works across GLSL, HLSL, WGSL and Metal — stop rewriting simplex noise.",
+  "url": "https://lygia.xyz",
+  "category": "shaders",
+  "tags": [
+    "glsl",
+    "wgsl",
+    "library",
+    "noise"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Patricio Gonzalez Vivo",
+      "role": "Creator",
+      "x": "patriciogv",
+      "github": "patriciogonzalezvivo"
+    }
+  ],
+  "best": [
+    {
+      "title": "Lygia",
+      "url": "https://lygia.xyz",
+      "note": "The shader standard library."
+    },
+    {
+      "title": "The Book of Shaders",
+      "url": "https://thebookofshaders.com",
+      "note": "How most of us learned GLSL."
+    }
+  ],
+  "featured": true
+}

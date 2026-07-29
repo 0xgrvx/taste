@@ -1,0 +1,45 @@
+{
+  "slug": "radix-ui",
+  "name": "Radix UI",
+  "tagline": "The accessibility layer of the modern React stack",
+  "description": "Low-level UI primitives with a relentless focus on keyboard behavior, focus management and WAI-ARIA correctness. If a dropdown feels right anywhere, it is probably Radix underneath.",
+  "url": "https://www.radix-ui.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "headless",
+    "a11y"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "radix-ui"
+  },
+  "makers": [
+    {
+      "name": "Colm Tuite",
+      "role": "Co-founder",
+      "x": "colmtuite",
+      "github": "colmtuite"
+    },
+    {
+      "name": "Pedro Duarte",
+      "role": "Co-founder",
+      "x": "peduarte",
+      "github": "peduarte"
+    }
+  ],
+  "best": [
+    {
+      "title": "Radix Primitives",
+      "url": "https://www.radix-ui.com/primitives",
+      "note": "The behavior spec, in code."
+    },
+    {
+      "title": "Radix Colors",
+      "url": "https://www.radix-ui.com/colors",
+      "note": "Twelve-step scales designed for real UI states."
+    }
+  ],
+  "featured": true
+}

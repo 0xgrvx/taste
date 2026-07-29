@@ -1,0 +1,35 @@
+{
+  "slug": "park-ui",
+  "name": "Park UI",
+  "tagline": "Ark UI plus a real design system",
+  "description": "Components built on Ark UI state machines and Panda CSS, available for React, Vue and Solid — headless behavior with a coherent visual language on top.",
+  "url": "https://park-ui.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "vue",
+    "solid",
+    "panda"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Christian Schröter",
+      "role": "Creator",
+      "x": "grizzly_codes",
+      "github": "cschroeter"
+    }
+  ],
+  "best": [
+    {
+      "title": "Park UI",
+      "url": "https://park-ui.com",
+      "note": "One system, three frameworks."
+    },
+    {
+      "title": "Ark UI",
+      "url": "https://ark-ui.com",
+      "note": "The state machines underneath."
+    }
+  ]
+}

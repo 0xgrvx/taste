@@ -1,0 +1,39 @@
+{
+  "slug": "heroui",
+  "name": "HeroUI",
+  "tagline": "Beautiful defaults on top of React Aria",
+  "description": "A full component library (formerly NextUI) with strong theming, Tailwind Variants styling and Adobe React Aria behavior underneath.",
+  "url": "https://www.heroui.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "library",
+    "theming",
+    "a11y"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@heroui/react"
+  },
+  "makers": [
+    {
+      "name": "Junior Garcia",
+      "role": "Founder",
+      "x": "jrgarciadev",
+      "github": "jrgarciadev"
+    }
+  ],
+  "best": [
+    {
+      "title": "HeroUI",
+      "url": "https://www.heroui.com",
+      "note": "Opinionated defaults that still theme cleanly."
+    },
+    {
+      "title": "Tailwind Variants",
+      "url": "https://tailwind-variants.org",
+      "note": "Variant API that made styling systems sane."
+    }
+  ]
+}

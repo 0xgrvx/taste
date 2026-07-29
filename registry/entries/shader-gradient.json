@@ -1,0 +1,39 @@
+{
+  "slug": "shader-gradient",
+  "name": "ShaderGradient",
+  "tagline": "Editable 3D gradients for web and Figma",
+  "description": "A visual editor that outputs animated shader gradients as React components or Figma layers — the fastest path from idea to a moving background.",
+  "url": "https://www.shadergradient.co",
+  "category": "shaders",
+  "tags": [
+    "gradient",
+    "react",
+    "figma",
+    "editor"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@shadergradient/react"
+  },
+  "makers": [
+    {
+      "name": "Ruucm",
+      "role": "Creator",
+      "x": "ruucm",
+      "github": "ruucm"
+    }
+  ],
+  "best": [
+    {
+      "title": "ShaderGradient",
+      "url": "https://www.shadergradient.co",
+      "note": "Configure a gradient, the code."
+    },
+    {
+      "title": "ShaderGradient for Figma",
+      "url": "https://www.figma.com/community/plugin/1015575328627216568",
+      "note": "The same engine inside design files."
+    }
+  ]
+}

@@ -17,8 +17,8 @@ export function MakersMarquee() {
   return (
     <section aria-label="Makers credited in the index" className="border-b border-border py-10">
       <p className="label mx-auto max-w-[1400px] px-4 text-muted-foreground sm:px-6">
-        Built by
-        <span className="ml-2 text-foreground/80">{makers.length} people</span>
+        Featuring
+        <span className="ml-2 text-foreground/80">{makers.length} makers</span>
       </p>
 
       <div className="group relative mt-6 overflow-hidden">

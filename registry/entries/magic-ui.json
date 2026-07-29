@@ -1,0 +1,40 @@
+{
+  "slug": "magic-ui",
+  "name": "Magic UI",
+  "tagline": "Marketing-grade effects, drop-in",
+  "description": "A large library of animated components for landing pages: marquees, beams, orbiting circles, text effects. Ships as a shadcn-compatible registry so nothing is a black box.",
+  "url": "https://magicui.design",
+  "category": "ui",
+  "tags": [
+    "react",
+    "tailwind",
+    "marketing",
+    "effects"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "shadcn",
+    "target": "https://magicui.design/r/marquee.json"
+  },
+  "makers": [
+    {
+      "name": "Dillion Verma",
+      "role": "Co-founder",
+      "x": "dillionverma",
+      "github": "dillionverma"
+    }
+  ],
+  "best": [
+    {
+      "title": "Magic UI",
+      "url": "https://magicui.design",
+      "note": "150+ animated components in one registry."
+    },
+    {
+      "title": "Portfolio template",
+      "url": "https://github.com/dillionverma/portfolio",
+      "note": "The most-forked dev portfolio of its year."
+    }
+  ],
+  "featured": true
+}

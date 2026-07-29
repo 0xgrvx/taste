@@ -1,0 +1,39 @@
+{
+  "slug": "pixi-js",
+  "name": "PixiJS",
+  "tagline": "The fastest 2D renderer on the web",
+  "description": "A WebGL and WebGPU 2D engine used for games, data art and filter-heavy interactive work, with a filter and shader pipeline that is a joy to abuse.",
+  "url": "https://pixijs.com",
+  "category": "webgl",
+  "tags": [
+    "2d",
+    "webgl",
+    "webgpu",
+    "games"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "pixi.js"
+  },
+  "makers": [
+    {
+      "name": "Mat Groves",
+      "role": "Creator",
+      "x": "doormat23",
+      "github": "GoodBoyDigital"
+    }
+  ],
+  "best": [
+    {
+      "title": "PixiJS",
+      "url": "https://pixijs.com",
+      "note": "Sprite and filter performance nothing else touches."
+    },
+    {
+      "title": "Pixi filters",
+      "url": "https://pixijs.io/filters/docs/",
+      "note": "Displacement and shader effects, batteries included."
+    }
+  ]
+}

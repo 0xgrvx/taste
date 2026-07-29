@@ -1,0 +1,40 @@
+{
+  "slug": "three-js",
+  "name": "Three.js",
+  "tagline": "The library that made WebGL approachable",
+  "description": "The renderer, scene graph and material system that almost every 3D site on the web is built on, maintained in public for well over a decade.",
+  "url": "https://threejs.org",
+  "category": "webgl",
+  "tags": [
+    "webgl",
+    "3d",
+    "js"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "three"
+  },
+  "makers": [
+    {
+      "name": "Ricardo Cabello (mrdoob)",
+      "role": "Creator",
+      "x": "mrdoob",
+      "github": "mrdoob",
+      "site": "https://mrdoob.com"
+    }
+  ],
+  "best": [
+    {
+      "title": "Three.js",
+      "url": "https://threejs.org",
+      "note": "The foundation of 3D on the web."
+    },
+    {
+      "title": "Three.js examples",
+      "url": "https://threejs.org/examples/",
+      "note": "Hundreds of reference scenes."
+    }
+  ],
+  "featured": true
+}

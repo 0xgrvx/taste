@@ -1,0 +1,41 @@
+{
+  "slug": "vaul",
+  "name": "Vaul",
+  "tagline": "An iOS-grade drawer for the web",
+  "description": "A drawer component with real momentum, damping at the boundaries and interruptible gestures. The reference implementation for how a sheet should feel under a thumb.",
+  "url": "https://vaul.emilkowal.ski",
+  "category": "ui",
+  "tags": [
+    "react",
+    "drawer",
+    "gesture",
+    "motion"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "vaul"
+  },
+  "makers": [
+    {
+      "name": "Emil Kowalski",
+      "role": "Creator",
+      "x": "emilkowalski_",
+      "github": "emilkowalski",
+      "site": "https://emilkowal.ski"
+    }
+  ],
+  "best": [
+    {
+      "title": "Sonner",
+      "url": "https://sonner.emilkowal.ski",
+      "note": "Toasts with spatial consistency and velocity-based dismissal."
+    },
+    {
+      "title": "animations.dev",
+      "url": "https://animations.dev",
+      "note": "The course that taught a generation about easing."
+    }
+  ],
+  "featured": true
+}

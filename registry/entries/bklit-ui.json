@@ -1,0 +1,35 @@
+{
+  "slug": "bklit-ui",
+  "name": "Bklit UI",
+  "tagline": "Design-engineered data visualization",
+  "description": "Charts built like product surfaces rather than chart-library output: precise typography, restrained color, live line rendering and a studio for composing them.",
+  "url": "https://bklit.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "charts",
+    "dataviz"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Matt",
+      "role": "Creator",
+      "x": "uixmat",
+      "github": "uixmat"
+    }
+  ],
+  "best": [
+    {
+      "title": "Bklit UI",
+      "url": "https://bklit.com",
+      "note": "Charts with the detail level of a trading terminal."
+    },
+    {
+      "title": "Bklit Studio",
+      "url": "https://bklit.com/studio",
+      "note": "Compose a chart, the code."
+    }
+  ],
+  "featured": true
+}

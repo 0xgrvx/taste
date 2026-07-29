@@ -1,0 +1,39 @@
+{
+  "slug": "tremor",
+  "name": "Tremor",
+  "tagline": "Dashboard blocks that look designed",
+  "description": "Charts, KPI cards and table blocks for React dashboards — copy-in components with sensible data-visualization defaults.",
+  "url": "https://tremor.so",
+  "category": "ui",
+  "tags": [
+    "react",
+    "charts",
+    "dashboard"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Severin Landolt",
+      "role": "Co-founder",
+      "x": "sevlandolt",
+      "github": "severinlandolt"
+    },
+    {
+      "name": "Christopher Kindl",
+      "role": "Co-founder",
+      "github": "chrisk-7777"
+    }
+  ],
+  "best": [
+    {
+      "title": "Tremor",
+      "url": "https://tremor.so",
+      "note": "Dashboard primitives with restraint."
+    },
+    {
+      "title": "Tremor Blocks",
+      "url": "https://blocks.tremor.so",
+      "note": "Full dashboard sections, ready to paste."
+    }
+  ]
+}

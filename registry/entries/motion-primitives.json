@@ -1,0 +1,35 @@
+{
+  "slug": "motion-primitives",
+  "name": "Motion Primitives",
+  "tagline": "Restrained motion components for React",
+  "description": "A tasteful set of animated primitives — text effects, morphing dialogs, cursors, transitions — with source you can read in one sitting.",
+  "url": "https://motion-primitives.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "motion",
+    "tailwind"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Julien Thibeaut",
+      "role": "Creator",
+      "x": "ibelick",
+      "github": "ibelick",
+      "site": "https://ibelick.com"
+    }
+  ],
+  "best": [
+    {
+      "title": "Motion Primitives",
+      "url": "https://motion-primitives.com",
+      "note": "Motion components with actual taste."
+    },
+    {
+      "title": "bg.ibelick",
+      "url": "https://bg.ibelick.com",
+      "note": "A gallery of pure-CSS background patterns."
+    }
+  ]
+}

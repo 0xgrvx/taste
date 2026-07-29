@@ -1,0 +1,39 @@
+{
+  "slug": "chakra-ui",
+  "name": "Chakra UI",
+  "tagline": "The accessible system that trained a generation",
+  "description": "A style-props component system with tokens, recipes and a serious accessibility record — and the origin point for Ark UI and Zag.js.",
+  "url": "https://chakra-ui.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "library",
+    "tokens",
+    "a11y"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@chakra-ui/react"
+  },
+  "makers": [
+    {
+      "name": "Segun Adebayo",
+      "role": "Creator",
+      "x": "thesegunadebayo",
+      "github": "segunadebayo"
+    }
+  ],
+  "best": [
+    {
+      "title": "Chakra UI",
+      "url": "https://chakra-ui.com",
+      "note": "Style props, tokens and recipes at scale."
+    },
+    {
+      "title": "Zag.js",
+      "url": "https://zagjs.com",
+      "note": "Component behavior as framework-agnostic state machines."
+    }
+  ]
+}

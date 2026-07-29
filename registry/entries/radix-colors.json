@@ -1,0 +1,38 @@
+{
+  "slug": "radix-colors",
+  "name": "Radix Colors",
+  "tagline": "Twelve steps, designed for states",
+  "description": "Color scales where every step has a job — backgrounds, borders, hover, solid, text — with automatic dark mode and accessible pairings.",
+  "url": "https://www.radix-ui.com/colors",
+  "category": "tools",
+  "tags": [
+    "color",
+    "tokens",
+    "a11y"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@radix-ui/colors"
+  },
+  "makers": [
+    {
+      "name": "Colm Tuite",
+      "role": "Creator",
+      "x": "colmtuite",
+      "github": "colmtuite"
+    }
+  ],
+  "best": [
+    {
+      "title": "Radix Colors",
+      "url": "https://www.radix-ui.com/colors",
+      "note": "Scales built around UI states."
+    },
+    {
+      "title": "Radix Themes",
+      "url": "https://www.radix-ui.com/themes",
+      "note": "The scales applied as a full theme."
+    }
+  ]
+}

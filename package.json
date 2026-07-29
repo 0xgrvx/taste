@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/build-registry.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/build-registry.mjs",
     "build": "next build",
+    "build:registry": "node scripts/build-registry.mjs",
+    "postinstall": "node scripts/build-registry.mjs",
     "start": "next start",
     "lint": "eslint ."
   },

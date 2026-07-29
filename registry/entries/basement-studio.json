@@ -1,0 +1,34 @@
+{
+  "slug": "basement-studio",
+  "name": "basement.studio",
+  "tagline": "A studio that ships WebGL to production",
+  "description": "Design and engineering studio known for shader-heavy product sites and for open-sourcing the pieces — a masterclass in shipping heavy visuals fast.",
+  "url": "https://basement.studio",
+  "category": "webgl",
+  "tags": [
+    "studio",
+    "webgl",
+    "inspiration"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Julian Benegas",
+      "role": "CEO",
+      "x": "julianbenegas8",
+      "github": "julianbenegas"
+    }
+  ],
+  "best": [
+    {
+      "title": "basement.studio",
+      "url": "https://basement.studio",
+      "note": "A 3D office you can walk through in a browser."
+    },
+    {
+      "title": "basement laboratory",
+      "url": "https://github.com/basementstudio",
+      "note": "Their internal tooling, in the open."
+    }
+  ]
+}

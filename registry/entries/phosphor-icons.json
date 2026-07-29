@@ -1,0 +1,43 @@
+{
+  "slug": "phosphor-icons",
+  "name": "Phosphor Icons",
+  "tagline": "Six weights, one voice",
+  "description": "A flexible icon family with thin through fill weights and a duotone option — the most expressive open icon system available.",
+  "url": "https://phosphoricons.com",
+  "category": "tools",
+  "tags": [
+    "icons",
+    "svg",
+    "type"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@phosphor-icons/react"
+  },
+  "makers": [
+    {
+      "name": "Helena Zhang",
+      "role": "Co-creator",
+      "x": "helenazhang",
+      "site": "https://helenazhang.com"
+    },
+    {
+      "name": "Tobias Fried",
+      "role": "Co-creator",
+      "github": "rektdeckard"
+    }
+  ],
+  "best": [
+    {
+      "title": "Phosphor Icons",
+      "url": "https://phosphoricons.com",
+      "note": "Weight as a design dimension."
+    },
+    {
+      "title": "Phosphor on GitHub",
+      "url": "https://github.com/phosphor-icons",
+      "note": "Runtimes for every platform."
+    }
+  ]
+}

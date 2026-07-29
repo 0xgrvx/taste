@@ -1,0 +1,38 @@
+{
+  "slug": "curtains-js",
+  "name": "Curtains.js",
+  "tagline": "Turn DOM elements into WebGL planes",
+  "description": "A library for shading images and videos in place, keeping the HTML layout as the source of truth. The classic route to hover-distortion galleries.",
+  "url": "https://www.curtainsjs.com",
+  "category": "webgl",
+  "tags": [
+    "webgl",
+    "dom",
+    "images"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "curtainsjs"
+  },
+  "makers": [
+    {
+      "name": "Martin Laxenaire",
+      "role": "Creator",
+      "github": "martinlaxenaire",
+      "site": "https://www.martin-laxenaire.fr"
+    }
+  ],
+  "best": [
+    {
+      "title": "Curtains.js",
+      "url": "https://www.curtainsjs.com",
+      "note": "WebGL that respects your DOM layout."
+    },
+    {
+      "title": "gpu-curtains",
+      "url": "https://martinlaxenaire.github.io/gpu-curtains/",
+      "note": "The WebGPU successor."
+    }
+  ]
+}

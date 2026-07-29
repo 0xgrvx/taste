@@ -1,0 +1,46 @@
+{
+  "slug": "base-ui",
+  "name": "Base UI",
+  "tagline": "Unstyled primitives from the Radix and MUI minds",
+  "description": "Headless, accessible React primitives with a tiny API surface and excellent animation hooks. Built by the people behind Radix UI, MUI Base and Floating UI.",
+  "url": "https://base-ui.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "headless",
+    "a11y",
+    "primitives"
+  ],
+  "embeddable": false,
+  "install": {
+    "type": "npm",
+    "target": "@base-ui-components/react"
+  },
+  "makers": [
+    {
+      "name": "Colm Tuite",
+      "role": "Co-creator",
+      "x": "colmtuite",
+      "github": "colmtuite"
+    },
+    {
+      "name": "Vlad Moroz",
+      "role": "Co-creator",
+      "x": "vladmoroz",
+      "github": "vladmoroz"
+    }
+  ],
+  "best": [
+    {
+      "title": "Base UI",
+      "url": "https://base-ui.com",
+      "note": "Primitives with first-class transition states."
+    },
+    {
+      "title": "Floating UI",
+      "url": "https://floating-ui.com",
+      "note": "The positioning engine under half the web."
+    }
+  ],
+  "featured": true
+}

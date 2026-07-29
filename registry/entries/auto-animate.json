@@ -1,0 +1,39 @@
+{
+  "slug": "auto-animate",
+  "name": "AutoAnimate",
+  "tagline": "One line, and your lists animate",
+  "description": "A zero-config drop-in that animates children as they are added, removed or moved. The highest ratio of polish to effort in front-end.",
+  "url": "https://auto-animate.formkit.com",
+  "category": "animation",
+  "tags": [
+    "js",
+    "react",
+    "vue",
+    "lists"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@formkit/auto-animate"
+  },
+  "makers": [
+    {
+      "name": "Justin Schroeder",
+      "role": "Creator, FormKit",
+      "x": "jpschroeder",
+      "github": "justin-schroeder"
+    }
+  ],
+  "best": [
+    {
+      "title": "AutoAnimate",
+      "url": "https://auto-animate.formkit.com",
+      "note": "Free polish for every list in your app."
+    },
+    {
+      "title": "FormKit",
+      "url": "https://formkit.com",
+      "note": "Form framework with the same taste for defaults."
+    }
+  ]
+}

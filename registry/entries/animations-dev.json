@@ -1,0 +1,35 @@
+{
+  "slug": "animations-dev",
+  "name": "animations.dev",
+  "tagline": "The course behind a lot of good taste",
+  "description": "A structured course on web animation and design engineering — easing, springs, performance and the judgement of when not to animate.",
+  "url": "https://animations.dev",
+  "category": "animation",
+  "tags": [
+    "course",
+    "education",
+    "craft"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Emil Kowalski",
+      "role": "Creator",
+      "x": "emilkowalski_",
+      "github": "emilkowalski",
+      "site": "https://emilkowal.ski"
+    }
+  ],
+  "best": [
+    {
+      "title": "animations.dev",
+      "url": "https://animations.dev",
+      "note": "Taste, taught as a curriculum."
+    },
+    {
+      "title": "Sonner",
+      "url": "https://sonner.emilkowal.ski",
+      "note": "The course applied to a real component."
+    }
+  ]
+}

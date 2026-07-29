@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ui",
+    "label": "UI libraries",
+    "blurb": "Component systems and registries worth stealing from."
+  },
+  {
+    "id": "animation",
+    "label": "Animation",
+    "blurb": "Motion engines, primitives and gesture work."
+  },
+  {
+    "id": "webgl",
+    "label": "3D / WebGL",
+    "blurb": "Renderers, scene graphs and the React layer on top."
+  },
+  {
+    "id": "shaders",
+    "label": "Shaders",
+    "blurb": "GLSL playgrounds, gradient engines and shader kits."
+  },
+  {
+    "id": "tools",
+    "label": "Tools",
+    "blurb": "Color, type, icons and the small utilities that compound."
+  }
+]

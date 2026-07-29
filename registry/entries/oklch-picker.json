@@ -1,0 +1,35 @@
+{
+  "slug": "oklch-picker",
+  "name": "OKLCH Color Picker",
+  "tagline": "Perceptual color, with the gamut drawn for you",
+  "description": "An OKLCH picker that shows exactly where you leave sRGB and P3. The fastest way to build a palette with even perceived lightness.",
+  "url": "https://oklch.com",
+  "category": "tools",
+  "tags": [
+    "color",
+    "oklch",
+    "gamut"
+  ],
+  "embeddable": false,
+  "makers": [
+    {
+      "name": "Andrey Sitnik",
+      "role": "Creator",
+      "x": "sitnikcode",
+      "github": "ai",
+      "site": "https://sitnik.ru"
+    }
+  ],
+  "best": [
+    {
+      "title": "OKLCH picker",
+      "url": "https://oklch.com",
+      "note": "Perceptual color made legible."
+    },
+    {
+      "title": "PostCSS",
+      "url": "https://postcss.org",
+      "note": "The CSS toolchain everything else builds on."
+    }
+  ]
+}

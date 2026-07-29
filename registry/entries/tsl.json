@@ -1,0 +1,38 @@
+{
+  "slug": "tsl",
+  "name": "Three.js Shading Language",
+  "tagline": "Write shaders in JavaScript, compile to WGSL or GLSL",
+  "description": "A node-based shading language inside Three.js that targets both WebGPU and WebGL — composable materials without string concatenation.",
+  "url": "https://threejs.org/docs/#api/en/nodes/core/Node",
+  "category": "shaders",
+  "tags": [
+    "tsl",
+    "webgpu",
+    "three",
+    "nodes"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "three"
+  },
+  "makers": [
+    {
+      "name": "Renato Foot (sunag)",
+      "role": "TSL lead",
+      "github": "sunag"
+    }
+  ],
+  "best": [
+    {
+      "title": "TSL wiki",
+      "url": "https://github.com/mrdoob/three.js/wiki/Three.js-Shading-Language",
+      "note": "The full node reference."
+    },
+    {
+      "title": "WebGPU examples",
+      "url": "https://threejs.org/examples/?q=webgpu",
+      "note": "TSL running in production form."
+    }
+  ]
+}

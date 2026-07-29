@@ -1,0 +1,40 @@
+{
+  "slug": "gsap",
+  "name": "GSAP",
+  "tagline": "Twenty years of timeline precision",
+  "description": "The timeline-based animation platform behind most award-winning sites, now fully free including SplitText, MorphSVG and ScrollTrigger.",
+  "url": "https://gsap.com",
+  "category": "animation",
+  "tags": [
+    "js",
+    "timeline",
+    "scroll",
+    "svg"
+  ],
+  "embeddable": false,
+  "install": {
+    "type": "npm",
+    "target": "gsap"
+  },
+  "makers": [
+    {
+      "name": "Jack Doyle",
+      "role": "Creator",
+      "x": "greensock",
+      "github": "jackdoyle"
+    }
+  ],
+  "best": [
+    {
+      "title": "ScrollTrigger",
+      "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+      "note": "The plugin that defined scroll storytelling."
+    },
+    {
+      "title": "SplitText",
+      "url": "https://gsap.com/docs/v3/Plugins/SplitText/",
+      "note": "Per-character type animation without the hacks."
+    }
+  ],
+  "featured": true
+}

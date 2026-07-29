@@ -1,0 +1,38 @@
+{
+  "slug": "rive",
+  "name": "Rive",
+  "tagline": "Interactive vector animation with a state machine",
+  "description": "Design animations with real state machines and run them anywhere at tiny file sizes. The best answer to \"we need a Lottie, but interactive\".",
+  "url": "https://rive.app",
+  "category": "animation",
+  "tags": [
+    "vector",
+    "runtime",
+    "state-machine"
+  ],
+  "embeddable": false,
+  "install": {
+    "type": "npm",
+    "target": "@rive-app/react-canvas"
+  },
+  "makers": [
+    {
+      "name": "Guido Rosso",
+      "role": "Co-founder & CEO",
+      "x": "guidorosso",
+      "site": "https://rive.app"
+    }
+  ],
+  "best": [
+    {
+      "title": "Rive",
+      "url": "https://rive.app",
+      "note": "Editor and runtimes for interactive motion."
+    },
+    {
+      "title": "Rive state machines",
+      "url": "https://rive.app/docs/editor/state-machine/state-machine",
+      "note": "Animation logic without code."
+    }
+  ]
+}

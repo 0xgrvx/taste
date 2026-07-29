@@ -1,0 +1,34 @@
+{
+  "slug": "origin-ui",
+  "name": "Origin UI",
+  "tagline": "Hundreds of small, correct variations",
+  "description": "An enormous catalogue of input, select, dialog and table variants built on shadcn/ui conventions — the fastest way to find the exact field you were about to build.",
+  "url": "https://originui.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "tailwind",
+    "forms"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Origin UI",
+      "role": "Team",
+      "site": "https://originui.com",
+      "github": "origin-space"
+    }
+  ],
+  "best": [
+    {
+      "title": "Origin UI",
+      "url": "https://originui.com",
+      "note": "Every input variant you will ever need."
+    },
+    {
+      "title": "Origin UI inputs",
+      "url": "https://originui.com/inputs",
+      "note": "A reference sheet for form craft."
+    }
+  ]
+}

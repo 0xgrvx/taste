@@ -1,0 +1,38 @@
+{
+  "slug": "mantine",
+  "name": "Mantine",
+  "tagline": "100+ components and hooks, batteries included",
+  "description": "A mature React library with dark mode, forms, dates, charts, notifications and a hooks package that is worth installing on its own.",
+  "url": "https://mantine.dev",
+  "category": "ui",
+  "tags": [
+    "react",
+    "library",
+    "hooks"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@mantine/core"
+  },
+  "makers": [
+    {
+      "name": "Vitaly Rtishchev",
+      "role": "Creator",
+      "x": "rtivital",
+      "github": "rtivital"
+    }
+  ],
+  "best": [
+    {
+      "title": "Mantine",
+      "url": "https://mantine.dev",
+      "note": "One of the most complete React libraries shipped."
+    },
+    {
+      "title": "Mantine hooks",
+      "url": "https://mantine.dev/hooks/use-hotkeys",
+      "note": "50+ hooks, usable outside Mantine."
+    }
+  ]
+}

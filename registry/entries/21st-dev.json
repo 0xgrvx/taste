@@ -1,0 +1,34 @@
+{
+  "slug": "21st-dev",
+  "name": "21st.dev",
+  "tagline": "An npm for design engineers",
+  "description": "A community registry of React and Tailwind components with previews, install commands and an AI agent that drops them into your codebase.",
+  "url": "https://21st.dev",
+  "category": "ui",
+  "tags": [
+    "registry",
+    "react",
+    "community"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Serafim Cloud",
+      "role": "Founder",
+      "x": "serafimcloud",
+      "github": "serafimcloud"
+    }
+  ],
+  "best": [
+    {
+      "title": "21st.dev",
+      "url": "https://21st.dev",
+      "note": "Community components with real previews."
+    },
+    {
+      "title": "Magic MCP",
+      "url": "https://21st.dev/magic",
+      "note": "An MCP that writes UI into your editor."
+    }
+  ]
+}

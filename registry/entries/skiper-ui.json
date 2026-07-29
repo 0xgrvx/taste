@@ -1,0 +1,39 @@
+{
+  "slug": "skiper-ui",
+  "name": "Skiper UI",
+  "tagline": "Scroll and carousel experiments, productised",
+  "description": "Card stacks, scroll-linked sliders and marquee experiments packaged as installable registry items — the kind of interaction usually locked inside an agency site.",
+  "url": "https://skiper-ui.com",
+  "category": "ui",
+  "tags": [
+    "react",
+    "scroll",
+    "carousel",
+    "registry"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "shadcn",
+    "target": "@skiper-ui/skiper104"
+  },
+  "makers": [
+    {
+      "name": "Skiper UI",
+      "role": "Studio",
+      "x": "skiper_ui",
+      "site": "https://skiper-ui.com"
+    }
+  ],
+  "best": [
+    {
+      "title": "Skiper UI",
+      "url": "https://skiper-ui.com",
+      "note": "Scroll interactions you can install."
+    },
+    {
+      "title": "Component index",
+      "url": "https://skiper-ui.com/docs",
+      "note": "Every experiment, numbered and documented."
+    }
+  ]
+}

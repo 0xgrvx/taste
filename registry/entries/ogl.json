@@ -1,0 +1,38 @@
+{
+  "slug": "ogl",
+  "name": "OGL",
+  "tagline": "Minimal WebGL, nothing hidden",
+  "description": "A tiny, unopinionated WebGL library that stays close to the API. The right pick when you want shader control without an engine in the way.",
+  "url": "https://oframe.github.io/ogl/examples",
+  "category": "webgl",
+  "tags": [
+    "webgl",
+    "minimal",
+    "shaders"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "ogl"
+  },
+  "makers": [
+    {
+      "name": "Nathan Gordon",
+      "role": "Creator",
+      "x": "gordonnl",
+      "github": "gordonnl"
+    }
+  ],
+  "best": [
+    {
+      "title": "OGL examples",
+      "url": "https://oframe.github.io/ogl/examples",
+      "note": "Small, readable WebGL demos."
+    },
+    {
+      "title": "OGL source",
+      "url": "https://github.com/oframe/ogl",
+      "note": "A codebase you can actually finish reading."
+    }
+  ]
+}

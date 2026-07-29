@@ -1,0 +1,45 @@
+{
+  "slug": "react-three-fiber",
+  "name": "React Three Fiber",
+  "tagline": "Three.js as a component tree",
+  "description": "A React renderer for Three.js with no performance penalty, plus the Poimandres ecosystem — drei, postprocessing, rapier — around it.",
+  "url": "https://r3f.docs.pmnd.rs",
+  "category": "webgl",
+  "tags": [
+    "react",
+    "three",
+    "3d"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@react-three/fiber"
+  },
+  "makers": [
+    {
+      "name": "Paul Henschel",
+      "role": "Creator",
+      "x": "0xca0a",
+      "github": "drcmda"
+    },
+    {
+      "name": "Poimandres",
+      "role": "Collective",
+      "x": "pmndrs",
+      "site": "https://pmnd.rs"
+    }
+  ],
+  "best": [
+    {
+      "title": "drei",
+      "url": "https://drei.docs.pmnd.rs",
+      "note": "The helper library that makes R3F practical."
+    },
+    {
+      "title": "Zustand",
+      "url": "https://zustand.docs.pmnd.rs",
+      "note": "State management with the same minimal instinct."
+    }
+  ],
+  "featured": true
+}

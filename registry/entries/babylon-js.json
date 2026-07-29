@@ -1,0 +1,38 @@
+{
+  "slug": "babylon-js",
+  "name": "Babylon.js",
+  "tagline": "A full engine, tooling included",
+  "description": "A complete 3D engine with a node material editor, physics, XR and an in-browser playground — the most batteries-included option on the web.",
+  "url": "https://www.babylonjs.com",
+  "category": "webgl",
+  "tags": [
+    "3d",
+    "engine",
+    "xr"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@babylonjs/core"
+  },
+  "makers": [
+    {
+      "name": "David Catuhe",
+      "role": "Co-creator",
+      "x": "deltakosh",
+      "github": "deltakosh"
+    }
+  ],
+  "best": [
+    {
+      "title": "Babylon.js Playground",
+      "url": "https://playground.babylonjs.com",
+      "note": "The best 3D scratchpad on the web."
+    },
+    {
+      "title": "Node Material Editor",
+      "url": "https://nme.babylonjs.com",
+      "note": "Shader graphs in the browser."
+    }
+  ]
+}

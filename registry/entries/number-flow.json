@@ -1,0 +1,39 @@
+{
+  "slug": "number-flow",
+  "name": "NumberFlow",
+  "tagline": "Transitions for numbers, done properly",
+  "description": "An animated number component that handles localization, digit width and mid-flight interruption — the detail that makes dashboards feel alive.",
+  "url": "https://number-flow.barvian.me",
+  "category": "animation",
+  "tags": [
+    "react",
+    "numbers",
+    "dataviz"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@number-flow/react"
+  },
+  "makers": [
+    {
+      "name": "Maxwell Barvian",
+      "role": "Creator",
+      "x": "maxbarvian",
+      "github": "barvian",
+      "site": "https://barvian.me"
+    }
+  ],
+  "best": [
+    {
+      "title": "NumberFlow",
+      "url": "https://number-flow.barvian.me",
+      "note": "The number transition everyone copies."
+    },
+    {
+      "title": "motion-plus experiments",
+      "url": "https://barvian.me",
+      "note": "Small, sharp interaction studies."
+    }
+  ]
+}

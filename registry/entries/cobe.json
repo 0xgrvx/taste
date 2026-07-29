@@ -1,0 +1,39 @@
+{
+  "slug": "cobe",
+  "name": "Cobe",
+  "tagline": "5kB of globe",
+  "description": "A tiny WebGL globe component with dotted continents and buttery rotation. Proof that one focused component can define a visual era.",
+  "url": "https://cobe.vercel.app",
+  "category": "webgl",
+  "tags": [
+    "webgl",
+    "globe",
+    "tiny"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "cobe"
+  },
+  "makers": [
+    {
+      "name": "Shu Ding",
+      "role": "Creator",
+      "x": "shuding_",
+      "github": "shuding",
+      "site": "https://shud.in"
+    }
+  ],
+  "best": [
+    {
+      "title": "Cobe",
+      "url": "https://cobe.vercel.app",
+      "note": "The globe on a hundred landing pages."
+    },
+    {
+      "title": "Satori",
+      "url": "https://github.com/vercel/satori",
+      "note": "HTML and CSS to SVG, which became OG images."
+    }
+  ]
+}
