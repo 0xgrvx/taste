@@ -91,6 +91,7 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
             name={entry.name}
             embeddable={entry.embeddable}
             fallback={previewImage(entry)}
+            interactive
           />
 
           <section className="mt-10">
