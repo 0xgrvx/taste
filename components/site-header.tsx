@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { CATEGORIES } from '@/lib/registry'
-import { GitHubIcon } from '@/components/icons'
 
 export function SiteHeader() {
   return (
@@ -48,21 +47,6 @@ export function SiteHeader() {
 
         <div className="ml-auto flex items-center gap-3">
           <span className="label hidden text-muted-foreground sm:inline">taste.11xui.com</span>
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noreferrer noopener"
-            aria-label="GitHub"
-            className="press flex h-8 w-8 items-center justify-center rounded-md border border-border text-muted-foreground transition-colors duration-150 hover:bg-muted/60 hover:text-foreground"
-          >
-            <GitHubIcon />
-          </a>
-          <Link
-            href="/browse"
-            className="press hidden rounded-md bg-primary px-3 py-1.5 text-[13px] font-medium text-primary-foreground transition-colors duration-150 hover:bg-primary/90 sm:inline-block"
-          >
-            Browse
-          </Link>
         </div>
       </div>
     </header>
