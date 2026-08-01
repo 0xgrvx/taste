@@ -33,7 +33,7 @@ export function MakersMarquee() {
 
         <div
           className="marquee-track flex w-max items-center gap-8 group-hover:[animation-play-state:paused]"
-          style={{ '--speed': '64s' } as React.CSSProperties}
+          style={{ '--speed': '96s' } as React.CSSProperties}
         >
           {track.map((m, i) => (
             <span key={`${m.name}-${i}`} className="flex shrink-0 items-baseline gap-2.5">
