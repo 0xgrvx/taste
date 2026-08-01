@@ -1,0 +1,30 @@
+{
+  "slug": "border-beam",
+  "name": "Border Beam",
+  "tagline": "Animated glowing border beam for React",
+  "description": "A single, sharply-scoped component: a beam of light that travels around an element's border on loop. Multiple sizes, color variants and themes, now also shipped for Swift and React Native alongside the original React version.",
+  "url": "https://beam.jakubantalik.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "css",
+    "border",
+    "micro-interaction"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Jakub Antalik",
+      "role": "Creator",
+      "x": "jakubantalik",
+      "github": "Jakubantalik"
+    }
+  ],
+  "best": [
+    {
+      "title": "Border Beam",
+      "url": "https://beam.jakubantalik.com/",
+      "note": "Live demo, dynamic colors and light/dark mode built in."
+    }
+  ]
+}

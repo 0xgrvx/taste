@@ -1,0 +1,28 @@
+{
+  "slug": "beautiful-ui",
+  "name": "Beautiful UI",
+  "tagline": "Crafted primitives for AI-native interfaces",
+  "description": "17 components for the harder parts of an agent product: approval cards for human-in-the-loop decisions, confidence-scored recommendation cards, live task rows, a diff table for AI-proposed edits. Less about chat bubbles and more about the moments an agent needs a human's sign-off.",
+  "url": "https://beautiful-ui-five.vercel.app/",
+  "category": "ui",
+  "tags": [
+    "ai-agents",
+    "chat-ui",
+    "primitives",
+    "design"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Turbo",
+      "role": "Product design studio"
+    }
+  ],
+  "best": [
+    {
+      "title": "Beautiful UI",
+      "url": "https://beautiful-ui-five.vercel.app/",
+      "note": "17 components for agent output: approval cards, diff tables, insight cards."
+    }
+  ]
+}

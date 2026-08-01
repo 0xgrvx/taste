@@ -1,0 +1,30 @@
+{
+  "slug": "liquid-metal",
+  "name": "Liquid Metal",
+  "tagline": "Real-time WebGL metal shader for buttons",
+  "description": "A fragment shader that turns any button or component into brushed, reflective chrome, with built-in reflections of neighboring elements. Three presets and a single slider stand in for what would otherwise be a pile of uniform tuning.",
+  "url": "https://metal.jakubantalik.com/",
+  "category": "shaders",
+  "tags": [
+    "webgl",
+    "shader",
+    "react",
+    "button"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Jakub Antalik",
+      "role": "Creator",
+      "x": "jakubantalik",
+      "github": "Jakubantalik"
+    }
+  ],
+  "best": [
+    {
+      "title": "Liquid Metal",
+      "url": "https://metal.jakubantalik.com/",
+      "note": "Three presets and one slider, instant chrome on any element."
+    }
+  ]
+}

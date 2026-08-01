@@ -1,0 +1,30 @@
+{
+  "slug": "thinking-orbs",
+  "name": "Thinking Orbs",
+  "tagline": "Animated thinking-orb loading indicators for AI UIs",
+  "description": "Six hand-tuned dot-particle orb states built specifically for the moment an agent is working: thinking, searching, coding. Two sizes, automatic dark and light mode, zero runtime dependencies once installed.",
+  "url": "https://orbs.jakubantalik.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "ai-agents",
+    "loading-state",
+    "canvas"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Jakub Antalik",
+      "role": "Creator",
+      "x": "jakubantalik",
+      "github": "Jakubantalik"
+    }
+  ],
+  "best": [
+    {
+      "title": "Thinking Orbs",
+      "url": "https://orbs.jakubantalik.com/",
+      "note": "Six states, includes a playground to compare them side by side."
+    }
+  ]
+}

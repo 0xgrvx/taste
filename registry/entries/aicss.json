@@ -1,0 +1,35 @@
+{
+  "slug": "aicss",
+  "name": "AICSS",
+  "tagline": "Copy-paste UI components for AI agent conversations",
+  "description": "13 components for the parts of a product that only show up once an agent is talking: thinking and reasoning traces, tool calls, streaming text, inline citations, diff and comparison tables. Plain CSS with no Tailwind dependency, shipped for React, Vue and Svelte.",
+  "url": "https://www.aicss.dev/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "vue",
+    "svelte",
+    "ai-agents",
+    "css"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Kevin",
+      "role": "Creator",
+      "x": "kvnkld"
+    }
+  ],
+  "best": [
+    {
+      "title": "AICSS",
+      "url": "https://www.aicss.dev/",
+      "note": "13 components grouped by what an agent shows mid-conversation."
+    },
+    {
+      "title": "Inline Citations",
+      "url": "https://www.aicss.dev/components/inline-citations",
+      "note": "Footnote-style citations for streamed, sourced answers."
+    }
+  ]
+}

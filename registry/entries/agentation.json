@@ -1,0 +1,45 @@
+{
+  "slug": "agentation",
+  "name": "Agentation",
+  "tagline": "Turns UI annotations into structured context for coding agents",
+  "description": "A browser toolbar: click any element, write a note, and it captures the CSS selector, source file path, React component tree and computed styles into markdown a coding agent can act on directly. The MCP integration skips the copy-paste step entirely, so the agent reads annotations straight off the page and can ask follow-up questions about them.",
+  "url": "https://www.agentation.com/",
+  "category": "tools",
+  "tags": [
+    "mcp",
+    "developer-tools",
+    "annotations",
+    "ai-agents"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Benji Taylor",
+      "role": "Co-creator",
+      "x": "benjitaylor",
+      "github": "benjitaylor"
+    },
+    {
+      "name": "Dennis Jin",
+      "role": "Co-creator",
+      "x": "seldom"
+    },
+    {
+      "name": "Alex Vanderzon",
+      "role": "Co-creator",
+      "x": "alexvanderzon"
+    }
+  ],
+  "best": [
+    {
+      "title": "Agentation",
+      "url": "https://www.agentation.com/",
+      "note": "Click any element on the page to try the annotation toolbar live."
+    },
+    {
+      "title": "MCP",
+      "url": "https://www.agentation.com/mcp",
+      "note": "Skip the copy-paste step, let the agent read annotations directly."
+    }
+  ]
+}

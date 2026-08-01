@@ -1,0 +1,36 @@
+{
+  "slug": "canvas-ui",
+  "name": "Canvas UI",
+  "tagline": "Creative html-in-canvas and WebGL effects, framework agnostic",
+  "description": "33 components that render live HTML through canvas and WebGL: Blaze, Liquid, Glass, Shatter, Particle Reveal, VHS. Each one ships in React, Solid, Preact, Vue, Svelte and dependency-free vanilla TypeScript from the same engine, and falls back to a pure WebGL overlay in browsers without the experimental html-in-canvas capability.",
+  "url": "https://canvasui.dev/",
+  "category": "webgl",
+  "tags": [
+    "webgl",
+    "canvas",
+    "react",
+    "shadcn",
+    "shader-effects"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "David Haz",
+      "role": "Creator",
+      "x": "davidhdev",
+      "github": "DavidHDev"
+    }
+  ],
+  "best": [
+    {
+      "title": "Canvas UI",
+      "url": "https://canvasui.dev/",
+      "note": "33 components, hero video shows the html-in-canvas effects live."
+    },
+    {
+      "title": "Components",
+      "url": "https://canvasui.dev/components",
+      "note": "Blaze, Liquid, Glass, Shatter, Particle Reveal, VHS and more."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "transitions-dev",
+  "name": "Transitions.dev",
+  "tagline": "Essential transitions for web apps",
+  "description": "40+ UI transitions (card resize, gooey menus, drag and drop with physics, 3D pointer tilt, spinner-to-check morphs) as plain CSS or React, each with a live hoverable preview instead of a static screenshot. Also installs as a skill for Claude Code, Cursor or Codex, and ships a Refine tool for iterating on a transition once it's in your project.",
+  "url": "https://transitions.dev/",
+  "category": "animation",
+  "tags": [
+    "css",
+    "react",
+    "transitions",
+    "agent-skill"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Jakub Antalik",
+      "role": "Creator",
+      "x": "jakubantalik",
+      "github": "Jakubantalik"
+    }
+  ],
+  "best": [
+    {
+      "title": "Transitions.dev",
+      "url": "https://transitions.dev/",
+      "note": "40+ transitions, each with a live, hoverable preview."
+    },
+    {
+      "title": "Skill",
+      "url": "https://transitions.dev/skill.html",
+      "note": "Install as an agent skill: npx skills add jakubantalik/transitions.dev"
+    }
+  ]
+}
