@@ -3,6 +3,7 @@ import { ArrowUpRight } from 'lucide-react'
 import { FEATURED, categoryLabel, previewImage } from '@/lib/registry'
 import { InstallCommand } from '@/components/install-command'
 import { PreviewTrigger } from '@/components/preview-trigger'
+import { LiveEmbed } from '@/components/live-embed'
 
 export function Picks() {
   const [lead, ...rest] = FEATURED.slice(0, 7)
@@ -40,11 +41,12 @@ export function Picks() {
                 <img
                   src={previewImage(lead) || '/placeholder.svg'}
                   alt={`${lead.name} interface preview`}
-                  className="h-full w-full object-cover opacity-80 transition-[transform,opacity] duration-500 ease-[var(--ease-out-strong)] group-hover:scale-[1.02] group-hover:opacity-100"
+                  className="absolute inset-0 h-full w-full object-cover opacity-70 transition-[transform,opacity] duration-500 ease-[var(--ease-out-strong)] group-hover:scale-[1.02] group-hover:opacity-100"
                 />
+                {lead.embeddable ? <LiveEmbed url={lead.url} className="absolute inset-0" /> : null}
                 <span
                   aria-hidden="true"
-                  className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-card to-transparent"
+                  className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-card to-transparent"
                 />
               </Link>
 

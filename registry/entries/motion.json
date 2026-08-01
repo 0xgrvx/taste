@@ -36,5 +36,6 @@
       "note": "A reference library of real transitions."
     }
   ],
-  "featured": true
+  "featured": true,
+  "featuredOrder": 0
 }

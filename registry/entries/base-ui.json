@@ -42,5 +42,6 @@
       "note": "The positioning engine under half the web."
     }
   ],
-  "featured": true
+  "featured": true,
+  "featuredOrder": 1
 }

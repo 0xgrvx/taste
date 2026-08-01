@@ -34,13 +34,18 @@ export type Entry = {
   makers: Maker[]
   best: Work[]
   featured?: boolean
+  featuredOrder?: number
 }
 
 // Re-export data from registry
 export const CATEGORIES = _CATEGORIES as unknown as { id: CategoryId; label: string; blurb: string }[]
 export const ENTRIES = _ENTRIES as unknown as Entry[]
 
-export const FEATURED = ENTRIES.filter((e) => e.featured)
+export const FEATURED = ENTRIES.filter((e) => e.featured).sort(
+  (a, b) =>
+    (a.featuredOrder ?? Number.MAX_SAFE_INTEGER) - (b.featuredOrder ?? Number.MAX_SAFE_INTEGER) ||
+    a.name.localeCompare(b.name),
+)
 
 export function getEntry(slug: string) {
   return ENTRIES.find((e) => e.slug === slug)
