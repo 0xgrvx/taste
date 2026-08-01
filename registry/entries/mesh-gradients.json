@@ -1,0 +1,35 @@
+{
+  "slug": "mesh-gradients",
+  "name": "Mesh Gradients",
+  "tagline": "React-three-fiber mesh gradient generator",
+  "description": "A genuine r3f scene, not a CSS gradient faker: geometry type, grain, reflection, light source and camera angle are all separate controls, and the result exports as working code rather than just a CSS string. One of several generators under the UI Layouts tools umbrella.",
+  "url": "https://tools.ui-layouts.com/mesh-gradients",
+  "category": "shaders",
+  "tags": [
+    "react-three-fiber",
+    "three.js",
+    "webgl",
+    "gradient"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Naymur Rahman",
+      "role": "Creator",
+      "x": "naymur_dev",
+      "github": "naymurdev"
+    }
+  ],
+  "best": [
+    {
+      "title": "Mesh Gradients",
+      "url": "https://tools.ui-layouts.com/mesh-gradients",
+      "note": "Full r3f controls: geometry, grain, lighting, camera, export code."
+    },
+    {
+      "title": "UI Layouts Tools",
+      "url": "https://tools.ui-layouts.com/",
+      "note": "Sibling generators: shadows, clip-paths, color lab, SVG line draw."
+    }
+  ]
+}

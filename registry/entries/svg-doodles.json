@@ -1,0 +1,29 @@
+{
+  "slug": "svg-doodles",
+  "name": "SVG Doodles",
+  "tagline": "200+ free, editable hand-drawn SVG doodles",
+  "description": "A browsable set of hand-drawn style doodles (circles, arrows, blobs, highlights) you can recolor and resize in the browser and copy the SVG straight out, no download or account needed. Good for adding an informal, sketched accent to an otherwise clean layout.",
+  "url": "https://svgdoodles.com/",
+  "category": "tools",
+  "tags": [
+    "svg",
+    "illustration",
+    "icons",
+    "design-resources"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Michael Andreuzza",
+      "role": "Creator",
+      "x": "mike_andreuzza"
+    }
+  ],
+  "best": [
+    {
+      "title": "SVG Doodles",
+      "url": "https://svgdoodles.com/",
+      "note": "Browse, recolor and copy any doodle directly in the browser."
+    }
+  ]
+}

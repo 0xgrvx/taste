@@ -1,0 +1,34 @@
+{
+  "slug": "loading-ui",
+  "name": "Loading UI",
+  "tagline": "Spinners, loaders and loading animations, free forever",
+  "description": "A curated set of CSS and React loading states: rings, dots, bars, text shimmer, skeletons, each with a one-click copy button. Grew out of the TurboStarter SaaS kit, so the components lean toward what a real product actually needs rather than novelty spinners.",
+  "url": "https://loading-ui.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "css",
+    "loaders",
+    "accessibility"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "bzagrodzki",
+      "role": "Creator",
+      "x": "bzagrodzki"
+    }
+  ],
+  "best": [
+    {
+      "title": "Loading UI",
+      "url": "https://loading-ui.com/",
+      "note": "Every loader on one page, copy the component directly."
+    },
+    {
+      "title": "TurboStarter",
+      "url": "https://www.turbostarter.dev",
+      "note": "The SaaS starter kit this library grew out of."
+    }
+  ]
+}

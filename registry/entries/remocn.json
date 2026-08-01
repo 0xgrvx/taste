@@ -1,0 +1,36 @@
+{
+  "slug": "remocn",
+  "name": "Remocn",
+  "tagline": "Copy-paste components for building videos in Remotion",
+  "description": "A shadcn-style registry scoped entirely to Remotion: text reveals, transitions, UI blocks, shader dissolves and icon animations, each installed as owned code with a live @remotion/player preview on every page. Worth a look for kinetic-type technique even outside a Remotion project.",
+  "url": "https://remocn.dev/",
+  "category": "ui",
+  "tags": [
+    "remotion",
+    "react",
+    "video",
+    "typography",
+    "shadcn"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Dima",
+      "role": "Creator",
+      "github": "kapishdima",
+      "site": "https://remocn.dev"
+    }
+  ],
+  "best": [
+    {
+      "title": "Typography",
+      "url": "https://remocn.dev/docs/typography",
+      "note": "40+ text reveal, kinetic type and glitch effects."
+    },
+    {
+      "title": "Transitions",
+      "url": "https://remocn.dev/docs/transitions",
+      "note": "Shader-driven dissolves: grain, dither, perlin, smoke."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "lukacho-ui",
+  "name": "Lukacho UI",
+  "tagline": "Next-generation animated UI components",
+  "description": "An animated component collection built with Next.js, Tailwind and Framer Motion, sold as a paid registry plus a services shop for custom websites and web apps rather than a pure open-source project. Worth checking for polish reference even where the free preview is all you use.",
+  "url": "https://ui.lukacho.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Luka Donadze",
+      "role": "Creator",
+      "x": "lukachodonadze"
+    }
+  ],
+  "best": [
+    {
+      "title": "Lukacho UI",
+      "url": "https://ui.lukacho.com/",
+      "note": "Animated component previews on the homepage."
+    },
+    {
+      "title": "Components",
+      "url": "https://ui.lukacho.com/components",
+      "note": "Full catalog and pricing for the registry."
+    }
+  ]
+}

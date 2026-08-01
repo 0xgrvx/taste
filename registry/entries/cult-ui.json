@@ -1,0 +1,34 @@
+{
+  "slug": "cult-ui",
+  "name": "Cult UI",
+  "tagline": "Shadcn, expanded",
+  "description": "78+ animated components and effects that drop straight into any shadcn/ui project, alongside a growing set of commercial spinoffs (AI SDK Agents, Cult Pro) that fund the open-source core. Good for interaction ideas beyond the standard shadcn primitive set.",
+  "url": "https://www.cult-ui.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "shadcn",
+    "tailwind",
+    "components"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Jordan Gilliam",
+      "role": "Creator",
+      "x": "nolansym"
+    }
+  ],
+  "best": [
+    {
+      "title": "Cult UI",
+      "url": "https://www.cult-ui.com/",
+      "note": "78+ components, browse from the homepage grid."
+    },
+    {
+      "title": "Shift Card",
+      "url": "https://www.cult-ui.com/docs/components/shift-card",
+      "note": "Card that expands detail on hover, a good motion reference."
+    }
+  ]
+}

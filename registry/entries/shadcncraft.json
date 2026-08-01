@@ -1,0 +1,35 @@
+{
+  "slug": "shadcncraft",
+  "name": "shadcncraft",
+  "tagline": "shadcn/ui components, blocks and a matching Figma kit",
+  "description": "A production design system built on top of shadcn/ui with one-to-one Figma and React parity: every block exists in both places with the same states and tokens. Aimed squarely at AI workflows, a Figma plugin exports layouts straight to React and the registry ships as agent skills for Claude Code, Cursor and Codex.",
+  "url": "https://shadcncraft.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "shadcn",
+    "figma",
+    "design-system",
+    "mcp"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Hamish O'Neill",
+      "role": "Founder",
+      "x": "hamishoneill"
+    }
+  ],
+  "best": [
+    {
+      "title": "shadcncraft",
+      "url": "https://shadcncraft.com/",
+      "note": "245 blocks and 116 components, Figma and React side by side."
+    },
+    {
+      "title": "Figma kit",
+      "url": "https://shadcncraft.com/figma",
+      "note": "The matching Figma UI kit, theming and component states included."
+    }
+  ]
+}

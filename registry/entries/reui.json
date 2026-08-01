@@ -1,0 +1,36 @@
+{
+  "slug": "reui",
+  "name": "ReUI",
+  "tagline": "shadcn/ui platform with MCP fluency for agents",
+  "description": "1,051 free components and 492 Pro blocks organized by real app surface (data grid, ecommerce, solutions like CRM and billing) rather than generic UI categories, plus 562 hand-crafted icons in four styles. Endorsed directly by shadcn as one of the trusted registries, and ships its own hosted MCP server so agents can query real component APIs instead of guessing props.",
+  "url": "https://reui.io/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "shadcn",
+    "tailwind",
+    "mcp",
+    "icons"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Keenthemes",
+      "role": "Team",
+      "x": "reui_io",
+      "github": "keenthemes"
+    }
+  ],
+  "best": [
+    {
+      "title": "ReUI",
+      "url": "https://reui.io/",
+      "note": "1,051 free components plus 492 Pro blocks across five groups."
+    },
+    {
+      "title": "Components",
+      "url": "https://reui.io/components",
+      "note": "Organized by shadcn primitive, CLI install on every page."
+    }
+  ]
+}

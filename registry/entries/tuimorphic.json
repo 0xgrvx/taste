@@ -1,0 +1,36 @@
+{
+  "slug": "tuimorphic",
+  "name": "Tuimorphic",
+  "tagline": "Terminal-aesthetic React components on Base UI",
+  "description": "50+ components styled like a DOS-era terminal interface (block loaders, ASCII progress bars, bracket-framed cards) but built on Base UI underneath, so the accessibility behavior is real and not just the retro paint job.",
+  "url": "https://tuimorphic.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "base-ui",
+    "terminal",
+    "retro"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Doug Lance",
+      "role": "Creator",
+      "x": "douglance",
+      "github": "douglance",
+      "site": "https://tuimorphic.com"
+    }
+  ],
+  "best": [
+    {
+      "title": "Tuimorphic",
+      "url": "https://tuimorphic.com/",
+      "note": "Every component previews live on the homepage."
+    },
+    {
+      "title": "Components",
+      "url": "https://tuimorphic.com/docs/components/actions/button",
+      "note": "Docs entry point, browse the full set from the sidebar."
+    }
+  ]
+}

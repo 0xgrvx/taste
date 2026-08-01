@@ -1,0 +1,35 @@
+{
+  "slug": "shadcnblocks",
+  "name": "Shadcnblocks",
+  "tagline": "The ultimate block set for shadcn/ui and Tailwind",
+  "description": "1,780 marketing blocks, 1,914 components, 17 full templates and 14 themes, all built on shadcn/ui. The free tier covers a real subset; the paid tiers exist because this is a small team's full-time product, not a side project. A page builder and an IDE extension both ship from the same block library.",
+  "url": "https://www.shadcnblocks.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "shadcn",
+    "tailwind",
+    "blocks",
+    "templates"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Rob Austin",
+      "role": "Founder",
+      "x": "ausrobdev"
+    }
+  ],
+  "best": [
+    {
+      "title": "Shadcnblocks",
+      "url": "https://www.shadcnblocks.com/",
+      "note": "1,780 blocks and 1,914 components, browse by category."
+    },
+    {
+      "title": "Blocks",
+      "url": "https://www.shadcnblocks.com/blocks",
+      "note": "Full-width sections: hero, pricing, dashboard, checkout."
+    }
+  ]
+}

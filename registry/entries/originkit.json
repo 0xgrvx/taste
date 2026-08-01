@@ -1,0 +1,34 @@
+{
+  "slug": "originkit",
+  "name": "Originkit",
+  "tagline": "Animated components for Framer, React or MCP",
+  "description": "50 animated components that ship three ways: copy-paste React, native Framer code components, or delivered live to a coding agent through a hosted MCP server. Useful when work is split between Framer and code and the two need to look like one system.",
+  "url": "https://www.originkit.dev/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "framer",
+    "mcp",
+    "animation"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Praha",
+      "role": "Team",
+      "x": "Praha37v"
+    }
+  ],
+  "best": [
+    {
+      "title": "Originkit",
+      "url": "https://www.originkit.dev/",
+      "note": "Browse the library, preview each component as video."
+    },
+    {
+      "title": "Integrations",
+      "url": "https://www.originkit.dev/integrations",
+      "note": "MCP setup for Claude, ChatGPT, Cursor and other editors."
+    }
+  ]
+}

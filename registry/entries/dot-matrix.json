@@ -1,0 +1,36 @@
+{
+  "slug": "dot-matrix",
+  "name": "Dot Matrix",
+  "tagline": "55+ dot matrix loaders for the shadcn registry",
+  "description": "A single-purpose registry of loading animations built entirely from dot grids: spirals, orbits, bar sweeps, pulses. Every loader installs through the shadcn CLI as owned code, not a dependency, so restyling is just editing Tailwind classes.",
+  "url": "https://dotmatrix.zzzzshawn.cloud/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "loaders"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "shawn",
+      "role": "Creator",
+      "x": "zzzzshawn",
+      "github": "zzzzshawn"
+    }
+  ],
+  "best": [
+    {
+      "title": "Dot Matrix",
+      "url": "https://dotmatrix.zzzzshawn.cloud/",
+      "note": "Full catalog of loaders, hover to preview each one."
+    },
+    {
+      "title": "Playground",
+      "url": "https://dotmatrix.zzzzshawn.cloud/playground?loader=dotm-square-1",
+      "note": "Live-tune size, speed and color before installing."
+    }
+  ]
+}

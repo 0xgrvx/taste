@@ -1,0 +1,35 @@
+{
+  "slug": "cuicui",
+  "name": "CuiCui",
+  "tagline": "The all-in-one React component library",
+  "description": "Split into six categories (application, common and marketing UI, hooks, utils, snippets) rather than one undifferentiated grid, which makes it easier to find things most libraries skip, like tree views, color pickers and static steppers. Built and maintained by one developer, with a documented rationale for why the project exists at all.",
+  "url": "https://cuicui.day/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "tailwind",
+    "typescript",
+    "framer-motion"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Damien Schneider",
+      "role": "Creator",
+      "x": "damien_schneid",
+      "github": "damien-schneider"
+    }
+  ],
+  "best": [
+    {
+      "title": "CuiCui",
+      "url": "https://cuicui.day/",
+      "note": "Six categories: application, common, marketing UI, hooks, utils, snippets."
+    },
+    {
+      "title": "Application UI",
+      "url": "https://cuicui.day/application-ui",
+      "note": "Advanced app components: trees, steppers, command palettes."
+    }
+  ]
+}

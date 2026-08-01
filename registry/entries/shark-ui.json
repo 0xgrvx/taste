@@ -1,0 +1,35 @@
+{
+  "slug": "shark-ui",
+  "name": "Shark UI",
+  "tagline": "shadcn/ui-style components built on Ark UI",
+  "description": "90+ accessible components shared across React, Solid, Vue and Svelte through one Ark UI foundation and shadcn-style theme tokens. A good reference for running a genuinely multi-framework component system without forking the design twice.",
+  "url": "https://shark.vini.one/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "vue",
+    "svelte",
+    "solid",
+    "ark-ui"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Vinicius Vicentini",
+      "role": "Creator",
+      "x": "vinihvc"
+    }
+  ],
+  "best": [
+    {
+      "title": "Shark UI",
+      "url": "https://shark.vini.one/",
+      "note": "Homepage is a live playground for the core components."
+    },
+    {
+      "title": "Components",
+      "url": "https://shark.vini.one/docs/components",
+      "note": "Full catalog, framework switcher included."
+    }
+  ]
+}

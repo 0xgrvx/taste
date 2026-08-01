@@ -1,0 +1,36 @@
+{
+  "slug": "dice-ui",
+  "name": "Dice UI",
+  "tagline": "Accessible components for shadcn/ui",
+  "description": "A smaller, accessibility-first set of shadcn/ui components with real WAI-ARIA behavior underneath, built and maintained by one of the more active contributors to the shadcn/ui ecosystem. Worth checking against when a component from a flashier library turns out to be keyboard-inaccessible.",
+  "url": "https://diceui.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "shadcn",
+    "typescript",
+    "accessibility",
+    "wai-aria"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "sadman",
+      "role": "Creator",
+      "x": "sadmann17",
+      "github": "sadmann7"
+    }
+  ],
+  "best": [
+    {
+      "title": "Dice UI",
+      "url": "https://diceui.com/",
+      "note": "Accessible shadcn components, copy-paste ready."
+    },
+    {
+      "title": "Components",
+      "url": "https://diceui.com/docs/components/radix/action-bar",
+      "note": "Full catalog starting from the Radix-based set."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "60fps",
+  "name": "60fps",
+  "tagline": "Delightful UI/UX animation details from the best apps",
+  "description": "A reference library, not a component kit: thousands of short screen recordings of real product micro-interactions, tagged by pattern (bounce, stagger, spring physics, liquid glass) rather than by app, so you can compare how five different apps solved the same onboarding moment. Started in 2022 as a way to archive feature-launch trailers before they disappeared.",
+  "url": "https://60fps.design/",
+  "category": "animation",
+  "tags": [
+    "inspiration",
+    "motion-design",
+    "ios",
+    "interaction-design"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "60fps",
+      "role": "Team",
+      "x": "60fpsdesign"
+    }
+  ],
+  "best": [
+    {
+      "title": "60fps",
+      "url": "https://60fps.design/",
+      "note": "2,000+ shots, filterable by over a hundred interaction patterns."
+    },
+    {
+      "title": "Apps",
+      "url": "https://60fps.design/apps",
+      "note": "Browse by app instead of by pattern, 470 and counting."
+    }
+  ]
+}

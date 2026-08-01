@@ -1,0 +1,35 @@
+{
+  "slug": "tailark",
+  "name": "Tailark",
+  "tagline": "Shadcn registry for marketing websites",
+  "description": "A registry scoped to marketing pages: hero sections, pricing, testimonials, illustrations, all built on shadcn/ui, Next.js and Radix or Base UI underneath. Lists teams at Figma and Promptwatch among its users, so the blocks read as opinionated rather than generic.",
+  "url": "https://tailark.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "shadcn",
+    "nextjs",
+    "marketing",
+    "blocks"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Tailark",
+      "role": "Team",
+      "x": "tailark"
+    }
+  ],
+  "best": [
+    {
+      "title": "Tailark",
+      "url": "https://tailark.com/",
+      "note": "Marketing blocks, pages and illustrations in one registry."
+    },
+    {
+      "title": "Pages",
+      "url": "https://tailark.com/pages",
+      "note": "Full landing page layouts, not just individual sections."
+    }
+  ]
+}

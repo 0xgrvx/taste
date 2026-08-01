@@ -1,0 +1,34 @@
+{
+  "slug": "useanimations",
+  "name": "useAnimations",
+  "tagline": "Micro-animated icons in Lottie and SVG",
+  "description": "Free animated icons built on a 32px grid and based on the Feather set, exported as both SVG and editable Lottie JSON. Each one ships with a hover or click trigger baked in, which is the detail most icon sets leave for you to build yourself.",
+  "url": "https://useanimations.com/",
+  "category": "tools",
+  "tags": [
+    "icons",
+    "lottie",
+    "svg",
+    "animation"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Patrik Svoboda",
+      "role": "Creator",
+      "x": "thesvob"
+    }
+  ],
+  "best": [
+    {
+      "title": "useAnimations",
+      "url": "https://useanimations.com/",
+      "note": "Every icon grouped by use: alerts, navigation, media, social."
+    },
+    {
+      "title": "react-useanimations",
+      "url": "https://github.com/useAnimations/react-useanimations",
+      "note": "React wrapper package for dropping icons straight into components."
+    }
+  ]
+}

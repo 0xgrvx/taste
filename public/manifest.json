@@ -1,0 +1,22 @@
+{
+  "name": "Taste — a curated index of UI, motion and WebGL craft",
+  "short_name": "Taste",
+  "description": "Hand-picked UI libraries, animation kits, shaders and WebGL tools. Hover to preview, copy the install command, meet the makers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

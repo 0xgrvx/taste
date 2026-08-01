@@ -1,0 +1,51 @@
+# Taste — a curated index of UI, motion, shader and WebGL craft
+
+> A hand-picked catalog of the best UI libraries, animation kits, shaders and WebGL tools, and the people who made them. Hover any entry for a live preview, copy the install command, then go read their best work.
+
+## Docs
+
+- Browse the index: https://taste.11xui.com/browse
+- Curation guide: https://taste.11xui.com/about
+- Add an entry: https://taste.11xui.com/about
+- Source: https://github.com/gauravmandall/taste
+- Curator: https://x.com/intent/follow?screen_name=gauravmandall
+
+## Project structure
+
+- `registry/entries/*.json` — entry data (50 files, one per tool)
+- `registry/categories.json` — 5 categories: ui, animation, webgl, shaders, tools
+- `scripts/build-registry.mjs` — compiles JSON files into typed TS module
+- `lib/registry.ts` — type definitions and helper functions
+- `lib/registry-data.ts` — auto-generated (gitignored)
+- `components/` — React components
+- `app/` — Next.js App Router pages
+
+## Entry schema
+
+Each entry in `registry/entries/{slug}.json` has: slug, name, tagline, description, url, category, tags, embeddable, optional install (npm/shadcn), makers array (name, role, x, github, site), best work links, optional featured flag.
+
+## Categories
+
+| id | label | count |
+|---|---|---|
+| ui | UI libraries | 18 |
+| animation | Animation | 10 |
+| webgl | 3D / WebGL | 9 |
+| shaders | Shaders | 5 |
+| tools | Tools | 6 |
+
+## Featured entries (editor's picks)
+
+Base UI, Bklit UI, Codrops, GSAP, Lygia, Magic UI, Motion, Paper Shaders, Radix UI, React Three Fiber, shadcn/ui, Shadertoy, Tailwind CSS, Three.js, Vaul
+
+## Routes
+
+- `/` — homepage with hero, category strip, picks, makers marquee, recent entries
+- `/browse` — full searchable index with category filter
+- `/browse?c={id}` — filtered by category
+- `/t/{slug}` — detail page for an entry
+- `/about` — curation rules
+
+## Stack
+
+Next.js 16, React 19, TypeScript, Tailwind CSS v4, Base UI, Lucide React, Geist/Geist Mono, Vercel Analytics

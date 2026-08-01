@@ -1,0 +1,36 @@
+{
+  "slug": "ui-layouts",
+  "name": "UI Layouts",
+  "tagline": "Copy-paste components and blocks for developers",
+  "description": "60+ components and 100+ blocks spanning React, Tailwind, GSAP and react-three-fiber, positioned as a full front-end toolkit rather than just a component grid: it links out to sibling tools for cursors, mesh gradients and shadows under the same brand. A decent first stop before checking the more specialized sibling sites.",
+  "url": "https://www.ui-layouts.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "gsap",
+    "three.js"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Naymur Rahman",
+      "role": "Founder",
+      "x": "naymur_dev",
+      "github": "naymurdev"
+    }
+  ],
+  "best": [
+    {
+      "title": "UI Layouts",
+      "url": "https://www.ui-layouts.com/",
+      "note": "60+ components and 100+ ready-to-use blocks."
+    },
+    {
+      "title": "Components",
+      "url": "https://www.ui-layouts.com/components",
+      "note": "Full catalog, liquid glass and 3D globe components included."
+    }
+  ]
+}

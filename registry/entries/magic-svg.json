@@ -1,0 +1,34 @@
+{
+  "slug": "magic-svg",
+  "name": "Magic",
+  "tagline": "Turns any SVG into a flickering dot grid",
+  "description": "A one-page tool from the 0xBalance team: drop in an SVG and it resamples the shape into a grid of dots that flicker and drift. Reads like a shader effect but runs on plain canvas, useful for hero backgrounds that need texture without pulling in WebGL.",
+  "url": "https://magic.0xbalance.xyz/",
+  "category": "tools",
+  "tags": [
+    "svg",
+    "canvas",
+    "generative",
+    "hero-background"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Lauge",
+      "role": "Co-founder, 0xBalance",
+      "x": "0xLauge"
+    }
+  ],
+  "best": [
+    {
+      "title": "Magic",
+      "url": "https://magic.0xbalance.xyz/",
+      "note": "Upload an SVG, tune grid density and flicker speed, export."
+    },
+    {
+      "title": "0xBalance ASCII",
+      "url": "https://ascii.0xbalance.xyz/",
+      "note": "Sibling tool: live noise shader rendered as ASCII glyphs."
+    }
+  ]
+}

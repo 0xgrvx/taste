@@ -1,0 +1,35 @@
+{
+  "slug": "eldora-ui",
+  "name": "Eldora UI",
+  "tagline": "UI library for design engineers",
+  "description": "150+ animated components built with React, TypeScript, Tailwind and Motion, pitched explicitly as a shadcn/ui companion rather than a replacement. Every demo opens directly in v0 for further tweaking, a nice shortcut past the usual copy-paste-then-fix loop.",
+  "url": "https://www.eldoraui.site/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "typescript",
+    "tailwind",
+    "motion"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Karthik Mudunuri",
+      "role": "Creator",
+      "x": "kartikmudunuri",
+      "github": "karthikmudunuri"
+    }
+  ],
+  "best": [
+    {
+      "title": "Eldora UI",
+      "url": "https://www.eldoraui.site/",
+      "note": "150+ components, each demo openable directly in v0."
+    },
+    {
+      "title": "Components",
+      "url": "https://www.eldoraui.site/docs/components",
+      "note": "Full catalog with install commands."
+    }
+  ]
+}

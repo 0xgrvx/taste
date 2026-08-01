@@ -1,0 +1,34 @@
+{
+  "slug": "inspira-ui",
+  "name": "Inspira UI",
+  "tagline": "Animated UI components for Vue and Nuxt",
+  "description": "A Vue and Nuxt port of the Aceternity UI and Magic UI aesthetic, built with permission from Aceternity's creator rather than as an unofficial clone. Fills a real gap: most animation-forward component sets assume React, and this one is built on shadcn-vue and Motion for Vue instead.",
+  "url": "https://inspira-ui.com/",
+  "category": "ui",
+  "tags": [
+    "vue",
+    "nuxt",
+    "shadcn-vue",
+    "tailwind",
+    "animation"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Rahul Vashishtha",
+      "role": "Creator"
+    }
+  ],
+  "best": [
+    {
+      "title": "Inspira UI",
+      "url": "https://inspira-ui.com/",
+      "note": "Component gallery built specifically for the Vue ecosystem."
+    },
+    {
+      "title": "Getting started",
+      "url": "https://inspira-ui.com/docs/en/getting-started",
+      "note": "Install path and the Aceternity/Magic UI attribution notes."
+    }
+  ]
+}

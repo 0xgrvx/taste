@@ -1,0 +1,35 @@
+{
+  "slug": "codrops-hub",
+  "name": "Codrops Creative Hub",
+  "tagline": "1,000+ curated demos across the creative web",
+  "description": "Codrops has published tutorials and open-source demos since 2009, and the Creative Hub is where all of it now lives in one browsable archive: 3D and WebGL experiments, GSAP-driven interactions, scroll effects, particle systems, layout ideas. Less a library to install and more a reference for what a technique should feel like before you build it yourself.",
+  "url": "https://tympanus.net/codrops/hub/",
+  "category": "animation",
+  "tags": [
+    "inspiration",
+    "webgl",
+    "three.js",
+    "gsap",
+    "css"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Manoela Ilic",
+      "role": "Editor-in-Chief",
+      "x": "crnacura"
+    }
+  ],
+  "best": [
+    {
+      "title": "Creative Hub",
+      "url": "https://tympanus.net/codrops/hub/",
+      "note": "1,000+ demos, filterable by topic from 3D to scroll effects."
+    },
+    {
+      "title": "Codrops",
+      "url": "https://tympanus.net/codrops/",
+      "note": "The tutorials and articles the Hub's demos are pulled from."
+    }
+  ]
+}

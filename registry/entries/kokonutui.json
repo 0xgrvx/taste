@@ -1,0 +1,35 @@
+{
+  "slug": "kokonutui",
+  "name": "KokonutUI",
+  "tagline": "100+ components built with Motion and shadcn/ui",
+  "description": "A Vercel OSS-backed component set that leans into small, specific interactions (drag-and-drop uploaders, glass-effect audio players, action search bars) rather than generic cards and buttons. Every component installs with a single shadcn CLI command against the KokonutUI registry.",
+  "url": "https://kokonutui.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "motion"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Dorian Baffier",
+      "role": "Creator",
+      "x": "dorianbaffier"
+    }
+  ],
+  "best": [
+    {
+      "title": "KokonutUI",
+      "url": "https://kokonutui.com/",
+      "note": "100+ components, install with npx shadcn add @kokonutui/<name>."
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/kokonut-labs/kokonutui",
+      "note": "1.8k+ stars, part of the Vercel spring 2025 OSS program."
+    }
+  ]
+}

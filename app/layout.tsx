@@ -42,6 +42,7 @@ export const metadata: Metadata = {
       'Hand-picked UI libraries, motion kits, shaders and WebGL tools. Live hover previews and install commands.',
   },
   generator: 'v0.app',
+  manifest: '/manifest.json',
   icons: {
     icon: [
       {

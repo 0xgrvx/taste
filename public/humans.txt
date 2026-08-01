@@ -1,0 +1,23 @@
+/* TEAM */
+
+    Curator: gauravmandall
+    X: @gauravmandall
+    Site: https://taste.11xui.com
+
+/* TECHNOLOGY */
+
+    Stack: Next.js, React, TypeScript, Tailwind CSS
+    Fonts: Geist, Geist Mono
+    Deploy: Vercel
+
+/* SITE */
+
+    URL: https://taste.11xui.com
+    Source: https://github.com/gauravmandall/taste
+    Language: English
+    DoB: 2025
+
+/* THANKS */
+
+    Every project in the index belongs to its makers.
+    Taste is just the reading list.

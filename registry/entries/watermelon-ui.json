@@ -1,0 +1,29 @@
+{
+  "slug": "watermelon-ui",
+  "name": "Watermelon UI",
+  "tagline": "React components, dashboards and blocks registry",
+  "description": "A copy-paste registry weighted toward dashboard and application UI rather than marketing pages: data tables, charts, forms, navigation shells. Useful when a project needs application chrome and not another landing-page hero.",
+  "url": "https://ui.watermelon.sh/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "shadcn",
+    "tailwind",
+    "dashboards"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Watermelon UI",
+      "role": "Team",
+      "site": "https://ui.watermelon.sh"
+    }
+  ],
+  "best": [
+    {
+      "title": "Watermelon UI",
+      "url": "https://ui.watermelon.sh/",
+      "note": "Registry homepage, components and blocks in one catalog."
+    }
+  ]
+}

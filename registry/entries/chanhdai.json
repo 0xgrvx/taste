@@ -1,0 +1,35 @@
+{
+  "slug": "chanhdai",
+  "name": "Chánh Đại",
+  "tagline": "Pixel-perfect, uniquely crafted components",
+  "description": "36 components with a genuinely distinct point of view: an Apple-style Hello animation, a Möbius loop icon, a slide-to-unlock control, haptic feedback hooks. Listed in shadcn/ui's own trusted registry directory, and installs through the same CLI as the official set.",
+  "url": "https://chanhdai.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "shadcn",
+    "tailwind",
+    "typescript"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Nguyễn Chánh Đại",
+      "role": "Creator",
+      "x": "iamncdai",
+      "github": "ncdai"
+    }
+  ],
+  "best": [
+    {
+      "title": "Components",
+      "url": "https://chanhdai.com/components",
+      "note": "36 components, new ones flagged at the top of the list."
+    },
+    {
+      "title": "Apple Hello Effect",
+      "url": "https://chanhdai.com/components/apple-hello-effect",
+      "note": "The component the site's reputation was largely built on."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "mvpblocks",
+  "name": "MVPBlocks",
+  "tagline": "Open-source UI blocks for shipping MVPs fast",
+  "description": "Copy-paste sections aimed specifically at the SaaS-landing-page-in-a-weekend use case: pricing, hero, testimonial and auth blocks built with Next.js, Tailwind and Framer Motion, v0-compatible for further editing. Comes up repeatedly in roundups of shadcn-based libraries alongside Magic UI and Kibo UI.",
+  "url": "https://blocks.mvp-subha.me/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "blocks"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Subhadeep Roy",
+      "role": "Creator",
+      "x": "mvp_Subha",
+      "github": "subhadeeproy3902"
+    }
+  ],
+  "best": [
+    {
+      "title": "MVPBlocks",
+      "url": "https://blocks.mvp-subha.me/",
+      "note": "Trending blocks gallery, CLI and manual install both supported."
+    },
+    {
+      "title": "Get started",
+      "url": "https://blocks.mvp-subha.me/docs/introduction",
+      "note": "Setup docs and the CLI command reference."
+    }
+  ]
+}

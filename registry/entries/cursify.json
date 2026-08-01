@@ -1,0 +1,40 @@
+{
+  "slug": "cursify",
+  "name": "Cursify",
+  "tagline": "The only cursor animation library you need",
+  "description": "Ten-plus cursor replacements (fairydust trail, canvas particle trail, rainbow, springy, character-following) built as open-source React and Framer Motion components rather than one configurable cursor. A narrow, well-scoped sibling to the main UI Layouts registry.",
+  "url": "https://cursify.ui-layouts.com/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "framer-motion",
+    "tailwind",
+    "cursor"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Durgesh",
+      "role": "Creator",
+      "x": "bachhav36741"
+    },
+    {
+      "name": "Naymur Rahman",
+      "role": "Maintainer",
+      "x": "naymur_dev",
+      "github": "naymurdev"
+    }
+  ],
+  "best": [
+    {
+      "title": "Cursify",
+      "url": "https://cursify.ui-layouts.com/",
+      "note": "Every cursor previews live on hover before you install it."
+    },
+    {
+      "title": "Components",
+      "url": "https://cursify.ui-layouts.com/components",
+      "note": "Full list, each with its own install command."
+    }
+  ]
+}
