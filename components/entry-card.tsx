@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 import { categoryLabel, type Entry } from '@/lib/registry'
 import { usePreview } from '@/components/preview-layer'
+import { EntryFavicon } from '@/components/entry-favicon'
 
 function pad(n: number) {
   return String(n + 1).padStart(3, '0')
@@ -31,7 +32,10 @@ export function EntryCard({ entry, index = 0 }: { entry: Entry; index?: number }
             <span className="label text-muted-foreground">{pad(index)}</span>
             <span className="label text-brand/80">{categoryLabel(entry.category)}</span>
           </div>
-          <h3 className="mt-3 truncate text-[17px] font-semibold tracking-tight">{entry.name}</h3>
+          <h3 className="mt-3 flex items-center gap-2.5 truncate text-[17px] font-semibold tracking-tight">
+            <EntryFavicon url={entry.url} name={entry.name} size={24} />
+            <span className="truncate">{entry.name}</span>
+          </h3>
           <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{entry.tagline}</p>
         </div>
         <ArrowUpRight
@@ -67,6 +71,7 @@ export function EntryRow({ entry, index = 0 }: { entry: Entry; index?: number })
         className="pointer-events-none absolute inset-y-0 left-0 w-px bg-brand opacity-0 transition-opacity duration-200 group-hover:opacity-100"
       />
       <span className="label w-9 shrink-0 text-muted-foreground">{pad(index)}</span>
+      <EntryFavicon url={entry.url} name={entry.name} size={20} />
       <span className="w-40 shrink-0 truncate text-sm font-medium sm:w-52">{entry.name}</span>
       <span className="hidden min-w-0 flex-1 truncate text-sm text-muted-foreground md:block">{entry.tagline}</span>
       <span className="label ml-auto hidden shrink-0 text-muted-foreground sm:block">

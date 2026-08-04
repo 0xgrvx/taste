@@ -14,6 +14,7 @@ import {
 import { InstallCommand } from '@/components/install-command'
 import { LiveEmbed } from '@/components/live-embed'
 import { EntryCard } from '@/components/entry-card'
+import { EntryFavicon } from '@/components/entry-favicon'
 
 export function generateStaticParams() {
   return ENTRIES.map((e) => ({ slug: e.slug }))
@@ -60,8 +61,9 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
           {entry.featured ? <span className="label text-muted-foreground">Editor&apos;s pick</span> : null}
         </div>
 
-        <h1 className="rise mt-5 text-[clamp(2.5rem,7vw,4.5rem)] font-semibold leading-[0.92] tracking-[-0.045em] text-balance">
-          {entry.name}
+        <h1 className="rise mt-5 flex items-center gap-3 text-[clamp(2.5rem,7vw,4.5rem)] font-semibold leading-[0.92] tracking-[-0.045em] text-balance">
+          <EntryFavicon url={entry.url} name={entry.name} size={44} className="rounded-[9px]" />
+          <span>{entry.name}</span>
         </h1>
         <p
           className="rise mt-4 max-w-2xl text-lg leading-snug tracking-[-0.01em] text-foreground/80 text-pretty"

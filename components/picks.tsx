@@ -4,6 +4,7 @@ import { FEATURED, categoryLabel, previewImage } from '@/lib/registry'
 import { InstallCommand } from '@/components/install-command'
 import { PreviewTrigger } from '@/components/preview-trigger'
 import { LiveEmbed } from '@/components/live-embed'
+import { EntryFavicon } from '@/components/entry-favicon'
 
 export function Picks() {
   const [lead, ...rest] = FEATURED.slice(0, 7)
@@ -58,8 +59,9 @@ export function Picks() {
                 <div>
                   <Link
                     href={`/t/${lead.slug}`}
-                    className="text-xl font-semibold tracking-tight underline-offset-4 hover:underline"
+                    className="inline-flex items-center gap-2.5 text-xl font-semibold tracking-tight underline-offset-4 hover:underline"
                   >
+                    <EntryFavicon url={lead.url} name={lead.name} size={26} />
                     {lead.name}
                   </Link>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{lead.description}</p>
@@ -85,7 +87,10 @@ export function Picks() {
                         aria-hidden="true"
                       />
                     </div>
-                    <p className="text-[15px] font-medium tracking-tight">{entry.name}</p>
+                    <p className="flex items-center gap-2 text-[15px] font-medium tracking-tight">
+                      <EntryFavicon url={entry.url} name={entry.name} size={20} />
+                      <span className="truncate">{entry.name}</span>
+                    </p>
                     <p className="text-sm leading-relaxed text-muted-foreground">{entry.tagline}</p>
                     <p className="label mt-auto text-muted-foreground/80">
                       {entry.makers.map((m) => m.name).join(' · ')}

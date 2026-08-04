@@ -63,6 +63,14 @@ export function previewImage(entry: Entry) {
   return `/previews/${entry.category}.png`
 }
 
+export function faviconUrl(url: string, size = 64) {
+  try {
+    return `https://www.google.com/s2/favicons?domain=${new URL(url).hostname}&sz=${size}`
+  } catch {
+    return null
+  }
+}
+
 export function relatedEntries(entry: Entry, count = 3) {
   return ENTRIES.filter((e) => e.slug !== entry.slug && e.category === entry.category).slice(0, count)
 }
