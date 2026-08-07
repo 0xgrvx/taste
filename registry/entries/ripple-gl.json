@@ -1,0 +1,36 @@
+{
+  "slug": "ripple-gl",
+  "name": "Ripple",
+  "tagline": "A wavy, noise-warped GLSL wavefront",
+  "description": "A glowing, rippling distortion transition that dissolves one photo into another. Raw WebGL, a single fragment shader, and GSAP driving the progress — all tunable live from a floating control panel. A fresh GLSL/WebGL reimplementation of Minsang's 'Ripple with Noise' Metal shader.",
+  "url": "https://ripple-gl.vercel.app/",
+  "category": "tools",
+  "tags": [
+    "webgl",
+    "glsl",
+    "gsap",
+    "react"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "mickces",
+      "role": "Creator",
+      "x": "mickces",
+      "github": "m1ckc3s",
+      "site": "https://github.com/m1ckc3s"
+    }
+  ],
+  "best": [
+    {
+      "title": "Live demo",
+      "url": "https://ripple-gl.vercel.app/",
+      "note": "Tap anywhere to send a rippling wavefront across the image."
+    },
+    {
+      "title": "Source",
+      "url": "https://github.com/m1ckc3s/ripple",
+      "note": "React + TypeScript + Vite, raw WebGL fragment shader, GSAP."
+    }
+  ]
+}
