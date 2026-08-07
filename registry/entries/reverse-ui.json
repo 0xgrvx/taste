@@ -1,0 +1,39 @@
+{
+  "slug": "reverse-ui",
+  "name": "Reverse UI",
+  "tagline": "Animated components, reverse-engineered from the web",
+  "description": "A paid collection of hand-built, Framer Motion-powered components recreated from the most polished sites on the web. Every component ships as original code, styled for Tailwind or Emotion, and installs via copy-paste, an npm package or the GitHub repo.",
+  "url": "https://reverseui.com/components/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "framer-motion",
+    "animation",
+    "tailwind"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "@reverse-ui/react"
+  },
+  "makers": [
+    {
+      "name": "Armedin Kuka",
+      "role": "Founder",
+      "x": "kukaarmedin",
+      "site": "https://majilabs.com"
+    }
+  ],
+  "best": [
+    {
+      "title": "Reverse UI",
+      "url": "https://reverseui.com/components/",
+      "note": "Hand-built animated components recreated from real sites."
+    },
+    {
+      "title": "Pricing",
+      "url": "https://reverseui.com/pricing",
+      "note": "One-time lifetime access."
+    }
+  ]
+}

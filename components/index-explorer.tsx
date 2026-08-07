@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { LayoutGrid, List, Search, X } from 'lucide-react'
 import { CATEGORIES, ENTRIES, type CategoryId } from '@/lib/registry'
 import { EntryCard, EntryRow } from '@/components/entry-card'
@@ -13,6 +14,7 @@ export function IndexExplorer({ initialCategory = 'all' }: { initialCategory?: C
   const [category, setCategory] = useState<CategoryId | 'all'>(initialCategory)
   const [view, setView] = useState<View>('grid')
   const inputRef = useRef<HTMLInputElement | null>(null)
+  const router = useRouter()
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -24,6 +26,15 @@ export function IndexExplorer({ initialCategory = 'all' }: { initialCategory?: C
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [])
+
+  function selectCategory(id: CategoryId | 'all') {
+    setCategory(id)
+    const params = new URLSearchParams(window.location.search)
+    if (id === 'all') params.delete('c')
+    else params.set('c', id)
+    const qs = params.toString()
+    router.replace(`/browse${qs ? `?${qs}` : ''}`, { scroll: false })
+  }
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -72,11 +83,11 @@ export function IndexExplorer({ initialCategory = 'all' }: { initialCategory?: C
           </div>
 
           <div className="flex items-center gap-2 overflow-x-auto pb-1 lg:pb-0">
-            <FilterChip active={category === 'all'} onClick={() => setCategory('all')}>
+            <FilterChip active={category === 'all'} onClick={() => selectCategory('all')}>
               All
             </FilterChip>
             {CATEGORIES.map((c) => (
-              <FilterChip key={c.id} active={category === c.id} onClick={() => setCategory(c.id)}>
+              <FilterChip key={c.id} active={category === c.id} onClick={() => selectCategory(c.id)}>
                 {c.label}
               </FilterChip>
             ))}

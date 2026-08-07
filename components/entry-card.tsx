@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { ArrowUpRight } from 'lucide-react'
+import { ExternalLink } from 'lucide-react'
 import { categoryLabel, type Entry } from '@/lib/registry'
 import { usePreview } from '@/components/preview-layer'
 import { EntryFavicon } from '@/components/entry-favicon'
@@ -14,19 +14,22 @@ export function EntryCard({ entry, index = 0 }: { entry: Entry; index?: number }
   const { show, hide } = usePreview()
 
   return (
-    <Link
-      href={`/t/${entry.slug}`}
-      onPointerEnter={(e) => show(entry, e)}
-      onPointerLeave={hide}
-      onFocus={hide}
-      className="group relative flex min-h-[168px] flex-col justify-between gap-6 border-b border-r border-border p-5 transition-colors duration-200 hover:bg-card focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-ring"
-    >
+    <div className="group relative flex min-h-[168px] flex-col justify-between gap-6 border-b border-r border-border p-5 transition-colors duration-200 hover:bg-card">
+      <Link
+        href={`/t/${entry.slug}`}
+        onPointerEnter={(e) => show(entry, e)}
+        onPointerLeave={hide}
+        onFocus={hide}
+        aria-label={`Open ${entry.name}`}
+        className="absolute inset-0 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-ring"
+      />
+
       <span
         aria-hidden="true"
         className="hatch pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-200 group-hover:opacity-100"
       />
 
-      <div className="relative flex items-start justify-between gap-3">
+      <div className="pointer-events-none flex items-start justify-between gap-3">
         <div className="min-w-0">
           <div className="flex items-center gap-2">
             <span className="label text-muted-foreground">{pad(index)}</span>
@@ -38,20 +41,26 @@ export function EntryCard({ entry, index = 0 }: { entry: Entry; index?: number }
           </h3>
           <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{entry.tagline}</p>
         </div>
-        <ArrowUpRight
-          className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground transition-[transform,color] duration-200 ease-[var(--ease-out-strong)] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-foreground"
-          aria-hidden="true"
-        />
+        <a
+          href={entry.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Visit ${entry.name} website`}
+          title={`Visit ${entry.name}`}
+          className="pointer-events-auto relative z-10 flex h-7 w-7 shrink-0 items-center justify-center rounded-sm border border-border bg-background/70 text-muted-foreground transition-colors duration-150 hover:border-brand/50 hover:text-brand"
+        >
+          <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
+        </a>
       </div>
 
-      <div className="relative flex flex-wrap items-center gap-1.5">
+      <div className="pointer-events-none flex flex-wrap items-center gap-1.5">
         {entry.tags.slice(0, 3).map((t) => (
           <span key={t} className="label rounded-sm border border-border px-1.5 py-1 text-muted-foreground">
             {t}
           </span>
         ))}
       </div>
-    </Link>
+    </div>
   )
 }
 
@@ -59,13 +68,15 @@ export function EntryRow({ entry, index = 0 }: { entry: Entry; index?: number })
   const { show, hide } = usePreview()
 
   return (
-    <Link
-      href={`/t/${entry.slug}`}
-      onPointerEnter={(e) => show(entry, e)}
-      onPointerLeave={hide}
-      onFocus={hide}
-      className="group relative flex items-center gap-4 border-b border-border px-3 py-3.5 transition-colors duration-200 hover:bg-card focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-ring sm:px-4"
-    >
+    <div className="group relative flex items-center gap-4 border-b border-border px-3 py-3.5 transition-colors duration-200 hover:bg-card sm:px-4">
+      <Link
+        href={`/t/${entry.slug}`}
+        onPointerEnter={(e) => show(entry, e)}
+        onPointerLeave={hide}
+        onFocus={hide}
+        aria-label={`Open ${entry.name}`}
+        className="absolute inset-0 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-ring"
+      />
       <span
         aria-hidden="true"
         className="pointer-events-none absolute inset-y-0 left-0 w-px bg-brand opacity-0 transition-opacity duration-200 group-hover:opacity-100"
@@ -77,10 +88,17 @@ export function EntryRow({ entry, index = 0 }: { entry: Entry; index?: number })
       <span className="label ml-auto hidden shrink-0 text-muted-foreground sm:block">
         {categoryLabel(entry.category)}
       </span>
-      <ArrowUpRight
-        className="h-4 w-4 shrink-0 text-muted-foreground transition-[transform,color] duration-200 ease-[var(--ease-out-strong)] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-foreground"
-        aria-hidden="true"
-      />
-    </Link>
+      <a
+        href={entry.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`Visit ${entry.name} website`}
+        title={`Visit ${entry.name}`}
+        className="pointer-events-auto relative z-10 flex h-8 shrink-0 items-center gap-1.5 rounded-sm border border-border bg-background/70 px-2.5 text-xs text-foreground transition-colors duration-150 hover:border-brand/50 hover:text-brand"
+      >
+        Visit
+        <ExternalLink className="h-3 w-3" aria-hidden="true" />
+      </a>
+    </div>
   )
 }
