@@ -1,0 +1,35 @@
+{
+  "slug": "holocloth",
+  "name": "Holocloth",
+  "tagline": "A real-time holographic cloth design tool",
+  "description": "Drape posters and graphics on simulated fabric and watch them ripple like they're printed on holo foil — iridescent diffraction, Verlet cloth physics, macro depth of field, film grain, bump maps, and one-click transparent PNG export. Built with Three.js and React, with the physics and shaders written from scratch.",
+  "url": "https://holocloth.vercel.app/",
+  "category": "tools",
+  "tags": [
+    "three.js",
+    "webgl",
+    "cloth",
+    "react"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Dmitry Kurash",
+      "role": "Designer",
+      "github": "dmitrykurash",
+      "site": "https://github.com/dmitrykurash"
+    }
+  ],
+  "best": [
+    {
+      "title": "Live demo",
+      "url": "https://holocloth.vercel.app/",
+      "note": "Grab the sheet, throw it around, drape your own images over the foil."
+    },
+    {
+      "title": "Source",
+      "url": "https://github.com/dmitrykurash/holocloth",
+      "note": "Three.js + React, Verlet physics and custom GLSL written from scratch."
+    }
+  ]
+}
