@@ -1,0 +1,39 @@
+{
+  "slug": "daisyui",
+  "name": "daisyUI",
+  "tagline": "The most popular Tailwind CSS component library",
+  "description": "A free, open-source plugin that adds component class names on top of Tailwind CSS — buttons, cards, modals, navbars and more, themeable through CSS variables and drop-in on any JS framework with no JS bundle of its own. Ships as a Tailwind plugin so every component stays pure CSS.",
+  "url": "https://daisyui.com/components",
+  "category": "ui",
+  "tags": [
+    "tailwind",
+    "css",
+    "components",
+    "open-source"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "npm",
+    "target": "daisyui"
+  },
+  "makers": [
+    {
+      "name": "Pouya Saadeghi",
+      "role": "Creator",
+      "x": "Saadeghi",
+      "site": "https://saadeghi.com"
+    }
+  ],
+  "best": [
+    {
+      "title": "Components",
+      "url": "https://daisyui.com/components",
+      "note": "The full component gallery, themeable via CSS variables."
+    },
+    {
+      "title": "Install",
+      "url": "https://daisyui.com/docs/install/",
+      "note": "npm i -D daisyui@latest, then @plugin \"daisyui\" in your CSS."
+    }
+  ]
+}

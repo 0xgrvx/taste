@@ -1,0 +1,36 @@
+{
+  "slug": "ai-particle-simulator",
+  "name": "AI Particle Simulator",
+  "tagline": "A 3D swarm simulator with gesture controls",
+  "description": "A massive Three.js particle playground from Casberry. Feed a plain-language idea to any AI model and paste the generated code back in to reshape 20,000+ particles into fractals, attractors and fields — then export the formation as React or vanilla JS, or as a GLB, OBJ, PLY or wallpaper render. Rotate with one finger, zoom with an open palm, and tune the swarm from a live control panel.",
+  "url": "https://particles.casberry.in/",
+  "category": "tools",
+  "tags": [
+    "three.js",
+    "particles",
+    "webgl",
+    "ai"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Eswar Prasaath",
+      "role": "Casberry India",
+      "x": "Eswarprasaath_",
+      "github": "CasberryIndia",
+      "site": "https://casberry.in"
+    }
+  ],
+  "best": [
+    {
+      "title": "AI Particle Simulator",
+      "url": "https://particles.casberry.in/",
+      "note": "Generate swarm logic with an AI prompt, shape it live, export it."
+    },
+    {
+      "title": "Casberry",
+      "url": "https://casberry.in",
+      "note": "The digital creative agency behind the simulator."
+    }
+  ]
+}
