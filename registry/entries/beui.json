@@ -1,0 +1,41 @@
+{
+  "slug": "beui",
+  "name": "beUI",
+  "tagline": "Animated components for React and Next.js",
+  "description": "A copy-paste component set built with Motion and Tailwind CSS, distributed through the shadcn registry. Motion primitives like a magnetic button, morphing modal and macOS-style dock sit alongside iOS-style blocks (dynamic island, command palette, expandable action bar) — free, open source and MIT licensed.",
+  "url": "https://beui.dev/",
+  "category": "ui",
+  "tags": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "motion",
+    "shadcn"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "shadcn",
+    "target": "@beui/tilt-card"
+  },
+  "makers": [
+    {
+      "name": "Saurabh",
+      "role": "Creator",
+      "x": "saurra3h",
+      "github": "starc007",
+      "site": "https://x.com/saurra3h"
+    }
+  ],
+  "best": [
+    {
+      "title": "beUI",
+      "url": "https://beui.dev/",
+      "note": "100+ animated components and blocks, install with shadcn."
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/starc007/ui-components",
+      "note": "The open repo behind the site."
+    }
+  ]
+}

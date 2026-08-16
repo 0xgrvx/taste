@@ -1,0 +1,39 @@
+{
+  "slug": "animate-ui",
+  "name": "Animate UI",
+  "tagline": "Fully animated, open-source components",
+  "description": "An animated component distribution built with React, TypeScript, Tailwind CSS and Motion. Motion-powered wrappers for Radix, Base UI and Headless UI, plus a library of animated buttons, backgrounds and primitives — installed through the shadcn CLI and MIT-licensed.",
+  "url": "https://animate-ui.com/docs/components",
+  "category": "ui",
+  "tags": [
+    "react",
+    "tailwind",
+    "motion",
+    "open-source"
+  ],
+  "embeddable": true,
+  "install": {
+    "type": "shadcn",
+    "target": "https://animate-ui.com/r/demo-components-animate-avatar-group.json"
+  },
+  "makers": [
+    {
+      "name": "Skyleen",
+      "role": "Creator",
+      "x": "imskyleen",
+      "github": "imskyleen"
+    }
+  ],
+  "best": [
+    {
+      "title": "Components",
+      "url": "https://animate-ui.com/docs/components",
+      "note": "Animated wrappers for Radix, Base UI and Headless UI, plus buttons and backgrounds."
+    },
+    {
+      "title": "Source",
+      "url": "https://github.com/imskyleen/animate-ui",
+      "note": "MIT licensed, React + TypeScript + Tailwind + Motion."
+    }
+  ]
+}
