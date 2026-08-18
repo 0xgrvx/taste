@@ -1,0 +1,33 @@
+{
+  "slug": "getlayers",
+  "name": "GetLayers",
+  "tagline": "AI-native library of cinematic design templates",
+  "description": "Copy a prompt, paste it into your AI, and launch a site that does not look AI-made. 200+ templates, 3D scenes, sections and backgrounds — each with a paste-ready vibe-coding prompt for Lovable, Cursor or v0.",
+  "url": "https://www.getlayers.ai",
+  "category": "tools",
+  "tags": [
+    "ai-prompts",
+    "templates",
+    "design"
+  ],
+  "embeddable": false,
+  "makers": [
+    {
+      "name": "Textura",
+      "role": "Studio",
+      "site": "https://www.textura.agency"
+    }
+  ],
+  "best": [
+    {
+      "title": "GetLayers",
+      "url": "https://www.getlayers.ai",
+      "note": "200+ prompt-driven templates organized by tone, mood and category."
+    },
+    {
+      "title": "Textura Agency",
+      "url": "https://www.textura.agency",
+      "note": "The immersive design studio behind GetLayers."
+    }
+  ]
+}

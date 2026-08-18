@@ -1,0 +1,27 @@
+{
+  "slug": "norrly",
+  "name": "Norrly",
+  "tagline": "Real-world website inspiration, in motion",
+  "description": "350+ curated sites captured as scroll recordings with color palettes and ready-to-paste AI vibe-coding prompts. See motion and layout rhythm, not just screenshots — then recreate any design feel with a single prompt.",
+  "url": "https://norrly.io",
+  "category": "tools",
+  "tags": [
+    "inspiration",
+    "ai-prompts",
+    "design"
+  ],
+  "embeddable": false,
+  "makers": [
+    {
+      "name": "Christopher Genberg",
+      "role": "Creator"
+    }
+  ],
+  "best": [
+    {
+      "title": "Norrly",
+      "url": "https://norrly.io",
+      "note": "Scroll recordings and AI prompts from 350+ of the best-designed sites."
+    }
+  ]
+}
