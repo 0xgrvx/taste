@@ -1,0 +1,35 @@
+{
+  "slug": "threeui",
+  "name": "ThreeUI",
+  "tagline": "Three.js components and interactive shaders",
+  "description": "A catalog of live-rendering Three.js components — particles, distortions, shader scenes — each with tweakable controls, variant pickers and copy-ready source for React projects.",
+  "url": "https://threeui.com",
+  "category": "webgl",
+  "tags": [
+    "threejs",
+    "react",
+    "shaders",
+    "catalog"
+  ],
+  "embeddable": true,
+  "makers": [
+    {
+      "name": "Meng To",
+      "role": "Creator",
+      "x": "MengTo",
+      "github": "MengTo"
+    }
+  ],
+  "best": [
+    {
+      "title": "ThreeUI",
+      "url": "https://threeui.com",
+      "note": "Browse every component with live renderers."
+    },
+    {
+      "title": "Community edition",
+      "url": "https://github.com/MengTo/threeui",
+      "note": "The open-source, login-free version with full source."
+    }
+  ]
+}
